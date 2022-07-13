@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta property="og:locale" content="en_GB">
+		<meta property="og:type" content="website">
+
+		<title>Quant Qual Dashboard</title>
+		<meta property="og:title" content="Quant Qual Dashboard">
+		<meta name="twitter:title" content="Quant Qual Dashboard">
+
+		<meta name="description" content="Data visualizations of quantitative quality metrics">
+		<meta property="og:description" content="Data visualizations of quantitative quality metrics">
+		<meta name="twitter:description" content="Data visualizations of quantitative quality metrics">
+
+		<meta property="og:url" content="">
+		<link rel="canonical" href="}">
+
+        <meta name="twitter:image" content="/assets/thumbnail.png">
+		<meta property="og:image" content="/assets/thumbnail.png">
+		<meta property="og:image:alt" content="Roblox Wordmark">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@Roblox">
+		<meta name="twitter:creator" content="@Brobot_Beam">
+
+		<link href='https://fonts.googleapis.com/css?family=Big Shoulders Display' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=IBM Plex Sans' rel='stylesheet'>
+        <link rel="stylesheet" href="/styles/main.css">
+
+		<link rel="icon" type="image/x-icon" href="/assets/logo.png">
+		<meta name="theme-color" content="#3325A4">
+	</head>
+
+	<body>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <h1>Quantitative Quality</h1>
+        <p id="pageDetails"></p>
+        <br>
+
+        <div class="grid">
+            <div class="metric-container">
+                <h2>Code Coverage</h2>
+                <canvas id="codeCoverage" width="10" height="9"></canvas>
+            </div>
+            <div class="metric-container">
+                <h2>Type Coverage</h2>
+                <canvas id="typeCoverage" width="10" height="9"></canvas>
+            </div>
+            <div class="metric-container">
+                <h2>Flag Combinatorics</h2>
+                <canvas id="flagCombinatorics" width="10" height="9"></canvas>
+            </div>
+            <div class="metric-container">
+                <h2>Cyclomatic Complexity</h2>
+                <canvas id="cyclomaticComplexity" width="10" height="9"></canvas>
+            </div>
+            <div class="metric-container">
+                <h2>Code Duplication</h2>
+                <canvas id="codeDuplication" width="10" height="9"></canvas>
+            </div>
+            <div class="metric-container">
+                <h2>File Heatmap</h2>
+                <canvas id="fileHeatmap" width="10" height="9"></canvas>
+            </div>
+        </div>
+
+        <script src="/scripts/populateDetails.js"></script>
+        <script src="/scripts/populateCharts.js"></script>
+	</body>
+</html>
+
