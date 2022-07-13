@@ -19,7 +19,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 18px;
 	line-height: 21px;
 	background-color: var(--background_color);
@@ -58,7 +58,7 @@ h2 {
 h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 35px;
 	line-height: 42px;
 	color: var(--text_color);
