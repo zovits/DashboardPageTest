@@ -11,7 +11,7 @@ function readTextFile(file, callback) {
 }
 
 // Code Coverage
-readTextFile("../data/details.json", function(detailsJSON){
+readTextFile("data/details.json", function(detailsJSON){
 	const details = JSON.parse(detailsJSON);
 
 	const date = new Date(details.timestamp*1000);
