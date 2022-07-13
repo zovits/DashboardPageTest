@@ -17,7 +17,7 @@ const barColors = [
 ];
 
 // Code Coverage
-readTextFile("/data/code-coverage.json", function(coverageReport){
+readTextFile("/DashboardPageTest/data/code-coverage.json", function(coverageReport){
 	const rawData = JSON.parse(coverageReport);
 
 	const labels = [];
