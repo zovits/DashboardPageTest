@@ -1,6 +1,6 @@
 :root {
-	--accent_color: #00A2FF;
-	--accent_color_light: #0C6DDB;
+	--accent_color: #0C6DDB;
+	--accent_color_light: #00A2FF;
 	--text_color: #222222;
 	--subtext_color: #3F4048;
 	--background_color: #F1F0F5;
@@ -147,12 +147,23 @@ button:hover {
 
 .metric-container {
     width: 30%;
+	background-color: var(--background_color);
+	transition-property: width;
+	transition-duration: 150ms;
+}
+
+.metric-container img.fullscreenIcon {
+	width: 25px;
 }
 
 @media (max-width: 1100px) {
 	/* Portrait version */
 	.metric-container {
 		width: 85%;
+	}
+
+	.metric-container img.fullscreenIcon {
+		width: 0px;
 	}
 
 	body {
