@@ -25,7 +25,8 @@ body {
 	background-color: var(--background_color);
 	color: var(--text_color);
 	margin: 0px;
-	padding: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
 p.subtext {
@@ -152,5 +153,25 @@ button:hover {
 	/* Portrait version */
 	.metric-container {
 		width: 85%;
+	}
+
+	body {
+		font-size: 15px;
+		padding-bottom: 30px;
+	}
+
+	h1 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	h2 {
+		font-size: 22px;
+		line-height: 24px;
+	}
+
+	h3 {
+		font-size: 18px;
+		line-height: 20px;
 	}
 }
