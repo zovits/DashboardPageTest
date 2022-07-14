@@ -37,7 +37,8 @@ readTextFile("data/code-coverage.json", function(coverageReport){
 	for (label in rawData) {
 		const datapoint = rawData[label];
 		const date = new Date(datapoint.timestamp*1000);
-		labels.push(`${label} - ${date.toLocaleDateString()}`);
+
+		labels.push(`${date.toLocaleDateString()} - ${label}`);
 		linesDataset.data.push(datapoint.lines);
 		funcsDataset.data.push(datapoint.functions);
 		linesDataset.backgroundColor.push(barColors[0]);
