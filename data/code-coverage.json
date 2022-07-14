@@ -1,18 +1,22 @@
 {
     "0a956ab": {
         "lines": 69,
-        "functions": 10
+        "functions": 10,
+        "timestamp": 1651749133
     },
     "4c74708": {
         "lines": 69.08,
-        "functions": 30
+        "functions": 30,
+        "timestamp": 1653749000
     },
     "7c14f90": {
         "lines": 69.11,
-        "functions": 35
+        "functions": 35,
+        "timestamp": 1656748133
     },
     "5cc08cf": {
         "lines": 69.55,
-        "functions": 40
+        "functions": 40,
+        "timestamp": 1657749133
     }
 }
