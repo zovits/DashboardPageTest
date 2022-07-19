@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" width="1200" height="112" onload="init(evt)" viewBox="0 0 1200 112" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg version="1.1" width="1200" height="688" onload="init(evt)" viewBox="0 0 1200 688" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <!-- Flame graph stack visualization. See https://github.com/brendangregg/FlameGraph for latest version, and http://www.brendangregg.com/flamegraphs.html for examples. -->
 <defs>
     <linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >
@@ -361,116 +361,2637 @@
     }
 ]]>
 </script>
-<rect x="0.0" y="0" width="1200.0" height="112.0" fill="url(#background)"  />
+<rect x="0.0" y="0" width="1200.0" height="688.0" fill="url(#background)"  />
 <text id="title" x="600.00" y="24" >Flame Graph</text>
 <text id="unzoom" x="10.00" y="24" class="hide">Reset Zoom</text>
 <text id="search" x="1090.00" y="24" >Search</text>
 <text id="ignorecase" x="1174.00" y="24" >ic</text>
-<text id="matched" x="1090.00" y="99" > </text>
-<text id="details" x="10.00" y="99" > </text>
+<text id="matched" x="1090.00" y="675" > </text>
+<text id="details" x="10.00" y="675" > </text>
 <g id="frames">
 
 <g>
 <title></title>
-<details>Function:  [:0] (21,701 usec, 100.0%); self: 0 usec</details>
-<rect x='10.0' y='64' width='1180.0' height='15' fill='rgb(250,211,50)' rx='2' ry='2' />
-<text x='13.0' y='74.5'></text>
+<details>Function:  [:0] (198,847 usec, 100.0%); self: 0 usec</details>
+<rect x='10.0' y='640' width='1180.0' height='15' fill='rgb(250,211,50)' rx='2' ry='2' />
+<text x='13.0' y='650.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>performWorkUntilDeadline
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.forks.SchedulerHostConfig.default:71</title>
+<details>Function: performWorkUntilDeadline [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.forks.SchedulerHostConfig.default:71] (188,529 usec, 94.8%); self: 100 usec</details>
+<rect x='10.0' y='624' width='1118.770813741218' height='15' fill='rgb(217,207,3)' rx='2' ry='2' />
+<text x='13.0' y='634.5'>performWorkUntilDeadline</text>
+<rawtext>performWorkUntilDeadline</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.React.React.ReactForwardRef:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.React.React.ReactForwardRef:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1166.2631571006855' y='624' width='0.5934210724828637' height='15' fill='rgb(207,64,37)' rx='2' ry='2' />
+<text x='1169.2631571006855' y='634.5'></text>
 <rawtext></rawtext>
 </g>
 <g>
 <title>
-LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Array.concat:1</title>
-<details>Function:  [LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Array.concat:1] (200 usec, 0.9%); self: 100 usec</details>
-<rect x='1135.6246255932906' y='48' width='10.875074881341874' height='15' fill='rgb(205,132,32)' rx='2' ry='2' />
-<text x='1138.6246255932906' y='58.5'></text>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:1] (300 usec, 0.2%); self: 300 usec</details>
+<rect x='1152.6144724335795' y='624' width='1.7802632174485913' height='15' fill='rgb(211,135,32)' rx='2' ry='2' />
+<text x='1155.6144724335795' y='634.5'></text>
 <rawtext></rawtext>
 </g>
 <g>
 <title>
-LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Array.map:1</title>
-<details>Function:  [LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Array.map:1] (100 usec, 0.5%); self: 100 usec</details>
-<rect x='1146.4997004746324' y='48' width='5.437537440670937' height='15' fill='rgb(233,217,39)' rx='2' ry='2' />
-<text x='1149.4997004746324' y='58.5'></text>
+LoadedCode.RoactAlignment._Workspace.Shared-17.0.1-rc.12.Shared.consoleWithStackDev:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Shared-17.0.1-rc.12.Shared.consoleWithStackDev:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1166.8565781731684' y='624' width='0.5934210724828637' height='15' fill='rgb(248,165,27)' rx='2' ry='2' />
+<text x='1169.8565781731684' y='634.5'></text>
 <rawtext></rawtext>
 </g>
 <g>
 <title>
-LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.String.trim:1</title>
-<details>Function:  [LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.String.trim:1] (100 usec, 0.5%); self: 100 usec</details>
-<rect x='1151.9372379153035' y='48' width='5.437537440670937' height='15' fill='rgb(216,39,40)' rx='2' ry='2' />
-<text x='1154.9372379153035' y='58.5'></text>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxComponentTree:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxComponentTree:1] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='1157.9552620859254' y='624' width='1.1868421449657274' height='15' fill='rgb(244,225,5)' rx='2' ry='2' />
+<text x='1160.9552620859254' y='634.5'></text>
 <rawtext></rawtext>
 </g>
 <g>
 <title>
-LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Object.is:1</title>
-<details>Function:  [LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Object.is:1] (100 usec, 0.5%); self: 100 usec</details>
-<rect x='1157.3747753559744' y='48' width='5.437537440670937' height='15' fill='rgb(218,50,38)' rx='2' ry='2' />
-<text x='1160.3747753559744' y='58.5'></text>
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.TracingSubscriptions:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.TracingSubscriptions:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1167.4499992456513' y='624' width='0.5934210724828637' height='15' fill='rgb(245,212,30)' rx='2' ry='2' />
+<text x='1170.4499992456513' y='634.5'></text>
 <rawtext></rawtext>
 </g>
 <g>
 <title>
-LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Array.every:1</title>
-<details>Function:  [LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Array.every:1] (100 usec, 0.5%); self: 100 usec</details>
-<rect x='1162.8123127966453' y='48' width='5.437537440670937' height='15' fill='rgb(253,111,29)' rx='2' ry='2' />
-<text x='1165.8123127966453' y='58.5'></text>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.React:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.React:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1168.043420318134' y='624' width='0.5934210724828637' height='15' fill='rgb(226,139,46)' rx='2' ry='2' />
+<text x='1171.043420318134' y='634.5'></text>
 <rawtext></rawtext>
 </g>
 <g>
 <title>
-LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Number.isNaN:1</title>
-<details>Function:  [LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Number.isNaN:1] (100 usec, 0.5%); self: 100 usec</details>
-<rect x='1168.2498502373162' y='48' width='5.437537440670937' height='15' fill='rgb(253,66,33)' rx='2' ry='2' />
-<text x='1171.2498502373162' y='58.5'></text>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactInternalTypes:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactInternalTypes:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1168.6368413906168' y='624' width='0.5934210724828637' height='15' fill='rgb(211,35,45)' rx='2' ry='2' />
+<text x='1171.6368413906168' y='634.5'></text>
 <rawtext></rawtext>
 </g>
 <g>
 <title>
-LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Array.forEach:1</title>
-<details>Function:  [LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Array.forEach:1] (100 usec, 0.5%); self: 100 usec</details>
-<rect x='1173.687387677987' y='48' width='5.437537440670937' height='15' fill='rgb(251,176,4)' rx='2' ry='2' />
-<text x='1176.687387677987' y='58.5'></text>
+LoadedCode.RoactAlignment._Workspace.React.React.ReactElementValidator:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.React.React.ReactElementValidator:1] (300 usec, 0.2%); self: 300 usec</details>
+<rect x='1154.3947356510282' y='624' width='1.7802632174485913' height='15' fill='rgb(227,124,16)' rx='2' ry='2' />
+<text x='1157.3947356510282' y='634.5'></text>
 <rawtext></rawtext>
 </g>
 <g>
 <title>
-LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.instanceof:1</title>
-<details>Function:  [LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.instanceof:1] (100 usec, 0.5%); self: 100 usec</details>
-<rect x='1179.1249251186582' y='48' width='5.437537440670937' height='15' fill='rgb(209,202,24)' rx='2' ry='2' />
-<text x='1182.1249251186582' y='58.5'></text>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactUpdateQueue.new:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactUpdateQueue.new:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1169.2302624630997' y='624' width='0.5934210724828637' height='15' fill='rgb(226,85,5)' rx='2' ry='2' />
+<text x='1172.2302624630997' y='634.5'></text>
 <rawtext></rawtext>
 </g>
 <g>
 <title>
-LoadedCode.profile:1</title>
-<details>Function:  [LoadedCode.profile:1] (20,701 usec, 95.4%); self: 7,294 usec</details>
-<rect x='10.0' y='48' width='1125.6246255932906' height='15' fill='rgb(215,194,8)' rx='2' ry='2' />
-<text x='13.0' y='58.5'></text>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Object.keys:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Object.keys:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1169.8236835355826' y='624' width='0.5934210724828637' height='15' fill='rgb(240,18,48)' rx='2' ry='2' />
+<text x='1172.8236835355826' y='634.5'></text>
 <rawtext></rawtext>
 </g>
 <g>
 <title>
-LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Array.from:1</title>
-<details>Function:  [LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Array.from:1] (100 usec, 0.5%); self: 100 usec</details>
-<rect x='1184.562462559329' y='48' width='5.437537440670937' height='15' fill='rgb(254,144,9)' rx='2' ry='2' />
-<text x='1187.562462559329' y='58.5'></text>
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.SchedulerProfiling:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.SchedulerProfiling:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1170.4171046080655' y='624' width='0.5934210724828637' height='15' fill='rgb(213,88,44)' rx='2' ry='2' />
+<text x='1173.4171046080655' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark:297</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark:297] (817 usec, 0.4%); self: 0 usec</details>
+<rect x='1139.4523930459097' y='624' width='4.848250162184996' height='15' fill='rgb(236,13,13)' rx='2' ry='2' />
+<text x='1142.4523930459097' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.SingleEventManager:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.SingleEventManager:1] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='1159.1421042308912' y='624' width='1.1868421449657274' height='15' fill='rgb(245,131,13)' rx='2' ry='2' />
+<text x='1162.1421042308912' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.React.React.ReactLazy:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.React.React.ReactLazy:1] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='1160.3289463758567' y='624' width='1.1868421449657274' height='15' fill='rgb(233,20,4)' rx='2' ry='2' />
+<text x='1163.3289463758567' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-2fca3173-0.2.6.LuauPolyfill.Object.freeze:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-2fca3173-0.2.6.LuauPolyfill.Object.freeze:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1171.0105256805484' y='624' width='0.5934210724828637' height='15' fill='rgb(234,7,29)' rx='2' ry='2' />
+<text x='1174.0105256805484' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Set:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Set:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1171.6039467530313' y='624' width='0.5934210724828637' height='15' fill='rgb(225,153,44)' rx='2' ry='2' />
+<text x='1174.6039467530313' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.firstRenderBenchmark:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.firstRenderBenchmark:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1172.197367825514' y='624' width='0.5934210724828637' height='15' fill='rgb(232,206,21)' rx='2' ry='2' />
+<text x='1175.197367825514' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.console:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.console:1] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1172.790788897997' y='624' width='0.5934210724828637' height='15' fill='rgb(223,96,15)' rx='2' ry='2' />
+<text x='1175.790788897997' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.deepTreeBenchmark:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.deepTreeBenchmark:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1173.3842099704798' y='624' width='0.5934210724828637' height='15' fill='rgb(236,193,53)' rx='2' ry='2' />
+<text x='1176.3842099704798' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.Shared-17.0.1-rc.12.Shared.ReactComponentStackFrame:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Shared-17.0.1-rc.12.Shared.ReactComponentStackFrame:1] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='1161.5157885208225' y='624' width='1.1868421449657274' height='15' fill='rgb(235,160,12)' rx='2' ry='2' />
+<text x='1164.5157885208225' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.React.React.ReactBaseClasses:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.React.React.ReactBaseClasses:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1173.9776310429627' y='624' width='0.5934210724828637' height='15' fill='rgb(219,167,0)' rx='2' ry='2' />
+<text x='1176.9776310429627' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.React.React.ReactMemo:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.React.React.ReactMemo:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1174.5710521154456' y='624' width='0.5934210724828637' height='15' fill='rgb(244,132,50)' rx='2' ry='2' />
+<text x='1177.5710521154456' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.util.inspect:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.util.inspect:1] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='1162.7026306657883' y='624' width='1.1868421449657274' height='15' fill='rgb(212,17,30)' rx='2' ry='2' />
+<text x='1165.7026306657883' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHooks.new:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHooks.new:1] (1,800 usec, 0.9%); self: 1,800 usec</details>
+<rect x='1128.770813741218' y='624' width='10.681579304691548' height='15' fill='rgb(209,25,28)' rx='2' ry='2' />
+<text x='1131.770813741218' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Number.toExponential:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Number.toExponential:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1175.1644731879285' y='624' width='0.5934210724828637' height='15' fill='rgb(229,229,32)' rx='2' ry='2' />
+<text x='1178.1644731879285' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberNewContext.new:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberNewContext.new:1] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1175.7578942604111' y='624' width='0.5934210724828637' height='15' fill='rgb(213,216,24)' rx='2' ry='2' />
+<text x='1178.7578942604111' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.SchedulerHostConfig:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.SchedulerHostConfig:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1176.351315332894' y='624' width='0.5934210724828637' height='15' fill='rgb(212,92,19)' rx='2' ry='2' />
+<text x='1179.351315332894' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactTypeOfMode:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactTypeOfMode:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1176.944736405377' y='624' width='0.5934210724828637' height='15' fill='rgb(208,120,6)' rx='2' ry='2' />
+<text x='1179.944736405377' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-2fca3173-0.2.6.LuauPolyfill.Array.concat:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-2fca3173-0.2.6.LuauPolyfill.Array.concat:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1177.5381574778598' y='624' width='0.5934210724828637' height='15' fill='rgb(216,155,21)' rx='2' ry='2' />
+<text x='1180.5381574778598' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.React.Shared:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.React.Shared:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1178.1315785503427' y='624' width='0.5934210724828637' height='15' fill='rgb(249,224,32)' rx='2' ry='2' />
+<text x='1181.1315785503427' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberTreeReflection:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberTreeReflection:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1178.7249996228256' y='624' width='0.5934210724828637' height='15' fill='rgb(227,68,32)' rx='2' ry='2' />
+<text x='1181.7249996228256' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.forks.SchedulerHostConfig.default:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.forks.SchedulerHostConfig.default:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1179.3184206953085' y='624' width='0.5934210724828637' height='15' fill='rgb(211,2,15)' rx='2' ry='2' />
+<text x='1182.3184206953085' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberReconciler.new:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberReconciler.new:1] (700 usec, 0.4%); self: 600 usec</details>
+<rect x='1144.3006432080947' y='624' width='4.153947507380046' height='15' fill='rgb(230,182,52)' rx='2' ry='2' />
+<text x='1147.3006432080947' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.React.React.ReactBinding.roblox:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.React.React.ReactBinding.roblox:1] (301 usec, 0.2%); self: 301 usec</details>
+<rect x='1150.828275005406' y='624' width='1.7861974281734196' height='15' fill='rgb(237,162,28)' rx='2' ry='2' />
+<text x='1153.828275005406' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-2fca3173-0.2.6.LuauPolyfill.Array.findIndex:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-2fca3173-0.2.6.LuauPolyfill.Array.findIndex:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1179.9118417677912' y='624' width='0.5934210724828637' height='15' fill='rgb(219,13,43)' rx='2' ry='2' />
+<text x='1182.9118417677912' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Object.assign:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Object.assign:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1180.505262840274' y='624' width='0.5934210724828637' height='15' fill='rgb(230,74,3)' rx='2' ry='2' />
+<text x='1183.505262840274' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.frameRateBenchmark:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.frameRateBenchmark:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1181.098683912757' y='624' width='0.5934210724828637' height='15' fill='rgb(246,205,18)' rx='2' ry='2' />
+<text x='1184.098683912757' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:1] (400 usec, 0.2%); self: 400 usec</details>
+<rect x='1148.4545907154748' y='624' width='2.3736842899314547' height='15' fill='rgb(249,82,4)' rx='2' ry='2' />
+<text x='1151.4545907154748' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.util:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.util:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1181.69210498524' y='624' width='0.5934210724828637' height='15' fill='rgb(220,79,14)' rx='2' ry='2' />
+<text x='1184.69210498524' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.Shared-17.0.1-rc.12.Shared.ReactSymbols:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Shared-17.0.1-rc.12.Shared.ReactSymbols:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1182.2855260577228' y='624' width='0.5934210724828637' height='15' fill='rgb(244,99,12)' rx='2' ry='2' />
+<text x='1185.2855260577228' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.React.React.ReactHooks:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.React.React.ReactHooks:1] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='1163.8894728107541' y='624' width='1.1868421449657274' height='15' fill='rgb(219,42,30)' rx='2' ry='2' />
+<text x='1166.8894728107541' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactReconciler:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactReconciler:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1182.8789471302057' y='624' width='0.5934210724828637' height='15' fill='rgb(209,223,43)' rx='2' ry='2' />
+<text x='1185.8789471302057' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-2fca3173-0.2.6.LuauPolyfill:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-2fca3173-0.2.6.LuauPolyfill:1] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1183.4723682026884' y='624' width='0.5934210724828637' height='15' fill='rgb(229,93,2)' rx='2' ry='2' />
+<text x='1186.4723682026884' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:1] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1184.0657892751713' y='624' width='0.5934210724828637' height='15' fill='rgb(220,0,3)' rx='2' ry='2' />
+<text x='1187.0657892751713' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:1] (300 usec, 0.2%); self: 300 usec</details>
+<rect x='1156.174998868477' y='624' width='1.7802632174485913' height='15' fill='rgb(207,164,23)' rx='2' ry='2' />
+<text x='1159.174998868477' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.run-sierpinski-triangle-benchmark:1</title>
+<details>Function:  [LoadedCode.run-sierpinski-triangle-benchmark:1] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1184.6592103476544' y='624' width='0.5934210724828637' height='15' fill='rgb(232,202,26)' rx='2' ry='2' />
+<text x='1187.6592103476544' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Tracing:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Tracing:1] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='1165.0763149557197' y='624' width='1.1868421449657274' height='15' fill='rgb(242,196,6)' rx='2' ry='2' />
+<text x='1168.0763149557197' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1185.252631420137' y='624' width='0.5934210724828637' height='15' fill='rgb(214,40,21)' rx='2' ry='2' />
+<text x='1188.252631420137' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.React.React.ReactContext:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.React.React.ReactContext:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1185.84605249262' y='624' width='0.5934210724828637' height='15' fill='rgb(231,184,43)' rx='2' ry='2' />
+<text x='1188.84605249262' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Boolean.toJSBoolean:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Boolean.toJSBoolean:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1186.4394735651028' y='624' width='0.5934210724828637' height='15' fill='rgb(210,104,29)' rx='2' ry='2' />
+<text x='1189.4394735651028' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.getJestMatchers.roblox:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.getJestMatchers.roblox:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1187.0328946375857' y='624' width='0.5934210724828637' height='15' fill='rgb(225,76,15)' rx='2' ry='2' />
+<text x='1190.0328946375857' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1187.6263157100684' y='624' width='0.5934210724828637' height='15' fill='rgb(209,219,32)' rx='2' ry='2' />
+<text x='1190.6263157100684' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxRoot:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxRoot:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1188.2197367825515' y='624' width='0.5934210724828637' height='15' fill='rgb(239,164,44)' rx='2' ry='2' />
+<text x='1191.2197367825515' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRoblox:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRoblox:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1188.8131578550342' y='624' width='0.5934210724828637' height='15' fill='rgb(238,2,51)' rx='2' ry='2' />
+<text x='1191.8131578550342' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.wideTreeBenchmark:1</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.wideTreeBenchmark:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1189.406578927517' y='624' width='0.5934210724828637' height='15' fill='rgb(241,85,29)' rx='2' ry='2' />
+<text x='1192.406578927517' y='634.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (188,429 usec, 94.8%); self: 0 usec</details>
+<rect x='10.0' y='608' width='1118.1773926687351' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='13.0' y='618.5'>xpcall</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>step
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark:270</title>
+<details>Function: step [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark:270] (817 usec, 0.4%); self: 0 usec</details>
+<rect x='1139.4523930459097' y='608' width='4.848250162184996' height='15' fill='rgb(212,148,51)' rx='2' ry='2' />
+<text x='1142.4523930459097' y='618.5'></text>
+<rawtext>step</rawtext>
+</g>
+<g>
+<title>Instance.FindFirstChild</title>
+<details>Function: Instance.FindFirstChild [[C]:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1172.790788897997' y='608' width='0.5934210724828637' height='15' fill='rgb(224,64,27)' rx='2' ry='2' />
+<text x='1175.790788897997' y='618.5'></text>
+<rawtext>Instance.FindFirstChild</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1175.7578942604111' y='608' width='0.5934210724828637' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='1178.7578942604111' y='618.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title></title>
+<details>Function:  [[C]:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1144.3006432080947' y='608' width='0.5934210724828637' height='15' fill='rgb(221,106,14)' rx='2' ry='2' />
+<text x='1147.3006432080947' y='618.5'></text>
 <rawtext></rawtext>
 </g>
 <g>
 <title>Instance.FindFirstChild</title>
-<details>Function: Instance.FindFirstChild [[C]:0] (100 usec, 0.5%); self: 100 usec</details>
-<rect x='1135.6246255932906' y='32' width='5.437537440670937' height='15' fill='rgb(224,64,27)' rx='2' ry='2' />
-<text x='1138.6246255932906' y='42.5'></text>
+<details>Function: Instance.FindFirstChild [[C]:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1183.4723682026884' y='608' width='0.5934210724828637' height='15' fill='rgb(224,64,27)' rx='2' ry='2' />
+<text x='1186.4723682026884' y='618.5'></text>
 <rawtext>Instance.FindFirstChild</rawtext>
 </g>
 <g>
-<title>add
-LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Set:75</title>
-<details>Function: add [LoadedCode.LuauPolyfillTestModel.Packages.LuauPolyfill.Set:75] (13,407 usec, 61.8%); self: 13,407 usec</details>
-<rect x='10.0' y='32' width='729.0106446707525' height='15' fill='rgb(206,94,48)' rx='2' ry='2' />
-<text x='13.0' y='42.5'>add</text>
-<rawtext>add</rawtext>
+<title>Instance.FindFirstChild</title>
+<details>Function: Instance.FindFirstChild [[C]:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1184.0657892751713' y='608' width='0.5934210724828637' height='15' fill='rgb(224,64,27)' rx='2' ry='2' />
+<text x='1187.0657892751713' y='618.5'></text>
+<rawtext>Instance.FindFirstChild</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.sierpinskiTriangleBenchmark:9</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.sierpinskiTriangleBenchmark:9] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1184.6592103476544' y='608' width='0.5934210724828637' height='15' fill='rgb(218,58,40)' rx='2' ry='2' />
+<text x='1187.6592103476544' y='618.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title></title>
+<details>Function:  [[C]:0] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1185.252631420137' y='608' width='0.5934210724828637' height='15' fill='rgb(221,106,14)' rx='2' ry='2' />
+<text x='1188.252631420137' y='618.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>doWork
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.forks.SchedulerHostConfig.default:81</title>
+<details>Function: doWork [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.forks.SchedulerHostConfig.default:81] (188,429 usec, 94.8%); self: 0 usec</details>
+<rect x='10.0' y='592' width='1118.1773926687351' height='15' fill='rgb(240,87,26)' rx='2' ry='2' />
+<text x='13.0' y='602.5'>doWork</text>
+<rawtext>doWork</rawtext>
+</g>
+<g>
+<title>setState
+LoadedCode.RoactAlignment._Workspace.React.React.ReactBaseClasses:290</title>
+<details>Function: setState [LoadedCode.RoactAlignment._Workspace.React.React.ReactBaseClasses:290] (817 usec, 0.4%); self: 0 usec</details>
+<rect x='1139.4523930459097' y='592' width='4.848250162184996' height='15' fill='rgb(218,206,42)' rx='2' ry='2' />
+<text x='1142.4523930459097' y='602.5'></text>
+<rawtext>setState</rawtext>
+</g>
+<g>
+<title>Instance.FindFirstChild</title>
+<details>Function: Instance.FindFirstChild [[C]:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1184.6592103476544' y='592' width='0.5934210724828637' height='15' fill='rgb(224,64,27)' rx='2' ry='2' />
+<text x='1187.6592103476544' y='602.5'></text>
+<rawtext>Instance.FindFirstChild</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1185.252631420137' y='592' width='0.5934210724828637' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='1188.252631420137' y='602.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:226</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:226] (188,429 usec, 94.8%); self: 0 usec</details>
+<rect x='10.0' y='576' width='1118.1773926687351' height='15' fill='rgb(227,141,37)' rx='2' ry='2' />
+<text x='13.0' y='586.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>enqueueSetState
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberClassComponent.new:247</title>
+<details>Function: enqueueSetState [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberClassComponent.new:247] (817 usec, 0.4%); self: 0 usec</details>
+<rect x='1139.4523930459097' y='576' width='4.848250162184996' height='15' fill='rgb(236,148,29)' rx='2' ry='2' />
+<text x='1142.4523930459097' y='586.5'></text>
+<rawtext>enqueueSetState</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:282</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:282] (188,429 usec, 94.8%); self: 100 usec</details>
+<rect x='10.0' y='560' width='1118.1773926687351' height='15' fill='rgb(247,45,14)' rx='2' ry='2' />
+<text x='13.0' y='570.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:615</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:615] (817 usec, 0.4%); self: 0 usec</details>
+<rect x='1139.4523930459097' y='560' width='4.848250162184996' height='15' fill='rgb(231,173,51)' rx='2' ry='2' />
+<text x='1142.4523930459097' y='570.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:830</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:830] (188,229 usec, 94.7%); self: 0 usec</details>
+<rect x='10.0' y='544' width='1116.9905505237696' height='15' fill='rgb(232,117,15)' rx='2' ry='2' />
+<text x='13.0' y='554.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.SchedulerProfiling:123</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.SchedulerProfiling:123] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1126.9905505237696' y='544' width='0.5934210724828637' height='15' fill='rgb(234,52,34)' rx='2' ry='2' />
+<text x='1129.9905505237696' y='554.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:725</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:725] (316 usec, 0.2%); self: 316 usec</details>
+<rect x='1142.425432619049' y='544' width='1.8752105890458493' height='15' fill='rgb(239,96,4)' rx='2' ry='2' />
+<text x='1145.425432619049' y='554.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:774</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:774] (501 usec, 0.3%); self: 100 usec</details>
+<rect x='1139.4523930459097' y='544' width='2.9730395731391472' height='15' fill='rgb(231,65,43)' rx='2' ry='2' />
+<text x='1142.4523930459097' y='554.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1079</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1079] (188,229 usec, 94.7%); self: 0 usec</details>
+<rect x='10.0' y='528' width='1116.9905505237696' height='15' fill='rgb(213,123,31)' rx='2' ry='2' />
+<text x='13.0' y='538.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>scheduleCallback
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:165</title>
+<details>Function: scheduleCallback [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:165] (201 usec, 0.1%); self: 0 usec</details>
+<rect x='1139.4523930459097' y='528' width='1.1927763556905562' height='15' fill='rgb(241,200,25)' rx='2' ry='2' />
+<text x='1142.4523930459097' y='538.5'></text>
+<rawtext>scheduleCallback</rawtext>
+</g>
+<g>
+<title>getNextLanes
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberLane:286</title>
+<details>Function: getNextLanes [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberLane:286] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1140.6451694016002' y='528' width='0.5934210724828637' height='15' fill='rgb(221,160,36)' rx='2' ry='2' />
+<text x='1143.6451694016002' y='538.5'></text>
+<rawtext>getNextLanes</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1141.2385904740831' y='528' width='0.5934210724828637' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='1144.2385904740831' y='538.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1739</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1739] (161,800 usec, 81.4%); self: 0 usec</details>
+<rect x='10.0' y='512' width='960.1552952772735' height='15' fill='rgb(213,97,25)' rx='2' ry='2' />
+<text x='13.0' y='522.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2037</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2037] (26,108 usec, 13.1%); self: 0 usec</details>
+<rect x='970.1552952772735' y='512' width='154.93037360382607' height='15' fill='rgb(212,203,51)' rx='2' ry='2' />
+<text x='973.1552952772735' y='522.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>getNextLanes
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberLane:286</title>
+<details>Function: getNextLanes [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberLane:286] (221 usec, 0.1%); self: 221 usec</details>
+<rect x='1125.0856688810995' y='512' width='1.3114605701871287' height='15' fill='rgb(221,160,36)' rx='2' ry='2' />
+<text x='1128.0856688810995' y='522.5'></text>
+<rawtext>getNextLanes</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2671</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2671] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1126.3971294512867' y='512' width='0.5934210724828637' height='15' fill='rgb(233,81,31)' rx='2' ry='2' />
+<text x='1129.3971294512867' y='522.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>unstable_scheduleCallback
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:439</title>
+<details>Function: unstable_scheduleCallback [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:439] (201 usec, 0.1%); self: 101 usec</details>
+<rect x='1139.4523930459097' y='512' width='1.1927763556905562' height='15' fill='rgb(230,88,52)' rx='2' ry='2' />
+<text x='1142.4523930459097' y='522.5'></text>
+<rawtext>unstable_scheduleCallback</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (161,800 usec, 81.4%); self: 0 usec</details>
+<rect x='10.0' y='496' width='960.1552952772735' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='13.0' y='506.5'>xpcall</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>runWithPriority
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:157</title>
+<details>Function: runWithPriority [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:157] (26,108 usec, 13.1%); self: 100 usec</details>
+<rect x='970.1552952772735' y='496' width='154.93037360382607' height='15' fill='rgb(212,74,2)' rx='2' ry='2' />
+<text x='973.1552952772735' y='506.5'>runWithPriority</text>
+<rawtext>runWithPriority</rawtext>
+</g>
+<g>
+<title>requestHostCallback
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.forks.SchedulerHostConfig.default:124</title>
+<details>Function: requestHostCallback [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.forks.SchedulerHostConfig.default:124] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1139.4523930459097' y='496' width='0.5934210724828637' height='15' fill='rgb(216,12,52)' rx='2' ry='2' />
+<text x='1142.4523930459097' y='506.5'></text>
+<rawtext>requestHostCallback</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1815</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1815] (161,800 usec, 81.4%); self: 1,000 usec</details>
+<rect x='10.0' y='480' width='960.1552952772735' height='15' fill='rgb(235,116,17)' rx='2' ry='2' />
+<text x='13.0' y='490.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>unstable_runWithPriority
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:340</title>
+<details>Function: unstable_runWithPriority [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:340] (26,008 usec, 13.1%); self: 0 usec</details>
+<rect x='970.1552952772735' y='480' width='154.3369525313432' height='15' fill='rgb(218,8,10)' rx='2' ry='2' />
+<text x='973.1552952772735' y='490.5'>unstable_runWithPri..</text>
+<rawtext>unstable_runWithPriority</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1913</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1913] (160,800 usec, 80.9%); self: 3,901 usec</details>
+<rect x='10.0' y='464' width='954.2210845524448' height='15' fill='rgb(207,53,0)' rx='2' ry='2' />
+<text x='13.0' y='474.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (26,008 usec, 13.1%); self: 0 usec</details>
+<rect x='970.1552952772735' y='464' width='154.3369525313432' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='973.1552952772735' y='474.5'>xpcall</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:246</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:246] (128,165 usec, 64.5%); self: 1,100 usec</details>
+<rect x='10.0' y='448' width='760.5581175476623' height='15' fill='rgb(229,52,20)' rx='2' ry='2' />
+<text x='13.0' y='458.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1941</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1941] (26,234 usec, 13.2%); self: 4,909 usec</details>
+<rect x='770.5581175476623' y='448' width='155.67808415515447' height='15' fill='rgb(211,195,42)' rx='2' ry='2' />
+<text x='773.5581175476623' y='458.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactCurrentFiber:73</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactCurrentFiber:73] (1,100 usec, 0.6%); self: 1,100 usec</details>
+<rect x='934.5440967175767' y='448' width='6.527631797311501' height='15' fill='rgb(254,65,36)' rx='2' ry='2' />
+<text x='937.5440967175767' y='458.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactCurrentFiber:64</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactCurrentFiber:64] (1,400 usec, 0.7%); self: 1,400 usec</details>
+<rect x='926.2362017028167' y='448' width='8.307895014760092' height='15' fill='rgb(215,93,24)' rx='2' ry='2' />
+<text x='929.2362017028167' y='458.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2041</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2041] (26,008 usec, 13.1%); self: 0 usec</details>
+<rect x='970.1552952772735' y='448' width='154.3369525313432' height='15' fill='rgb(209,221,7)' rx='2' ry='2' />
+<text x='973.1552952772735' y='458.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>beginWork
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:3328</title>
+<details>Function: beginWork [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:3328] (127,065 usec, 63.9%); self: 6,430 usec</details>
+<rect x='10.0' y='432' width='754.0304857503507' height='15' fill='rgb(241,94,53)' rx='2' ry='2' />
+<text x='13.0' y='442.5'>beginWork</text>
+<rawtext>beginWork</rawtext>
+</g>
+<g>
+<title>completeWork
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCompleteWork.new:844</title>
+<details>Function: completeWork [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCompleteWork.new:844] (20,325 usec, 10.2%); self: 4,117 usec</details>
+<rect x='770.5581175476623' y='432' width='120.61283298214205' height='15' fill='rgb(212,187,52)' rx='2' ry='2' />
+<text x='773.5581175476623' y='442.5'>completeWork</text>
+<rawtext>completeWork</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactCurrentFiber:64</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactCurrentFiber:64] (800 usec, 0.4%); self: 800 usec</details>
+<rect x='891.1709505298044' y='432' width='4.7473685798629095' height='15' fill='rgb(215,93,24)' rx='2' ry='2' />
+<text x='894.1709505298044' y='442.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactCurrentFiber:73</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactCurrentFiber:73] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='895.9183191096672' y='432' width='1.1868421449657274' height='15' fill='rgb(254,65,36)' rx='2' ry='2' />
+<text x='898.9183191096672' y='442.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2049</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2049] (26,008 usec, 13.1%); self: 100 usec</details>
+<rect x='970.1552952772735' y='432' width='154.3369525313432' height='15' fill='rgb(252,109,31)' rx='2' ry='2' />
+<text x='973.1552952772735' y='442.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>updateHostComponent
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:1284</title>
+<details>Function: updateHostComponent [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:1284] (6,100 usec, 3.1%); self: 2,400 usec</details>
+<rect x='666.086337737054' y='416' width='36.19868542145469' height='15' fill='rgb(216,157,47)' rx='2' ry='2' />
+<text x='669.086337737054' y='426.5'>upd..</text>
+<rawtext>updateHostComponent</rawtext>
+</g>
+<g>
+<title>mountIndeterminateComponent
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:1526</title>
+<details>Function: mountIndeterminateComponent [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:1526] (2,575 usec, 1.3%); self: 0 usec</details>
+<rect x='702.2850231585088' y='416' width='15.280592616433742' height='15' fill='rgb(206,196,22)' rx='2' ry='2' />
+<text x='705.2850231585088' y='426.5'></text>
+<rawtext>mountIndeterminateComponent</rawtext>
+</g>
+<g>
+<title>updateFunctionComponent
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:823</title>
+<details>Function: updateFunctionComponent [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:823] (110,560 usec, 55.6%); self: 5,000 usec</details>
+<rect x='10.0' y='416' width='656.086337737054' height='15' fill='rgb(234,223,38)' rx='2' ry='2' />
+<text x='13.0' y='426.5'>updateFunctionComponent</text>
+<rawtext>updateFunctionComponent</rawtext>
+</g>
+<g>
+<title>updateClassComponent
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:994</title>
+<details>Function: updateClassComponent [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:994] (1,100 usec, 0.6%); self: 0 usec</details>
+<rect x='717.5656157749426' y='416' width='6.527631797311501' height='15' fill='rgb(214,67,48)' rx='2' ry='2' />
+<text x='720.5656157749426' y='426.5'></text>
+<rawtext>updateClassComponent</rawtext>
+</g>
+<g>
+<title>isContextProvider
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberContext.new:164</title>
+<details>Function: isContextProvider [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberContext.new:164] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='724.093247572254' y='416' width='0.5934210724828637' height='15' fill='rgb(232,185,45)' rx='2' ry='2' />
+<text x='727.093247572254' y='426.5'></text>
+<rawtext>isContextProvider</rawtext>
+</g>
+<g>
+<title>pushHostContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:64</title>
+<details>Function: pushHostContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:64] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='724.686668644737' y='416' width='0.5934210724828637' height='15' fill='rgb(254,207,28)' rx='2' ry='2' />
+<text x='727.686668644737' y='426.5'></text>
+<rawtext>pushHostContainer</rawtext>
+</g>
+<g>
+<title>updateHostRoot
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:1202</title>
+<details>Function: updateHostRoot [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:1202] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='725.2800897172198' y='416' width='0.5934210724828637' height='15' fill='rgb(234,220,38)' rx='2' ry='2' />
+<text x='728.2800897172198' y='426.5'></text>
+<rawtext>updateHostRoot</rawtext>
+</g>
+<g>
+<title>getRootHostContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:57</title>
+<details>Function: getRootHostContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:57] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='865.552962830719' y='416' width='1.1868421449657274' height='15' fill='rgb(252,117,24)' rx='2' ry='2' />
+<text x='868.552962830719' y='426.5'></text>
+<rawtext>getRootHostContainer</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:387</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:387] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='863.7726996132706' y='416' width='1.7802632174485913' height='15' fill='rgb(216,112,23)' rx='2' ry='2' />
+<text x='866.7726996132706' y='426.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>bubbleProperties
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCompleteWork.new:712</title>
+<details>Function: bubbleProperties [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCompleteWork.new:712] (6,100 usec, 3.1%); self: 6,100 usec</details>
+<rect x='819.8595402495386' y='416' width='36.19868542145469' height='15' fill='rgb(253,192,42)' rx='2' ry='2' />
+<text x='822.8595402495386' y='426.5'>bub..</text>
+<rawtext>bubbleProperties</rawtext>
+</g>
+<g>
+<title>updateHostComponent
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCompleteWork.new:261</title>
+<details>Function: updateHostComponent [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCompleteWork.new:261] (8,308 usec, 4.2%); self: 1,600 usec</details>
+<rect x='770.5581175476623' y='416' width='49.30142270187632' height='15' fill='rgb(251,65,54)' rx='2' ry='2' />
+<text x='773.5581175476623' y='426.5'>upda..</text>
+<rawtext>updateHostComponent</rawtext>
+</g>
+<g>
+<title>popHostContext
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:115</title>
+<details>Function: popHostContext [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:115] (700 usec, 0.4%); self: 700 usec</details>
+<rect x='856.0582256709934' y='416' width='4.153947507380046' height='15' fill='rgb(215,29,22)' rx='2' ry='2' />
+<text x='859.0582256709934' y='426.5'></text>
+<rawtext>popHostContext</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:312</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:312] (600 usec, 0.3%); self: 500 usec</details>
+<rect x='860.2121731783733' y='416' width='3.5605264348971826' height='15' fill='rgb(249,191,1)' rx='2' ry='2' />
+<text x='863.2121731783733' y='426.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506] (16,450 usec, 8.3%); self: 0 usec</details>
+<rect x='970.1552952772735' y='416' width='97.61776642343108' height='15' fill='rgb(211,204,40)' rx='2' ry='2' />
+<text x='973.1552952772735' y='426.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (8,557 usec, 4.3%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='416' width='50.77904117235865' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='426.5'>xpcall</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:774</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:774] (300 usec, 0.2%); self: 100 usec</details>
+<rect x='1118.5521028730632' y='416' width='1.7802632174485913' height='15' fill='rgb(231,65,43)' rx='2' ry='2' />
+<text x='1121.5521028730632' y='426.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>flushSyncCallbackQueue
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:199</title>
+<details>Function: flushSyncCallbackQueue [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:199] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='416' width='1.7802632174485913' height='15' fill='rgb(210,57,6)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='426.5'></text>
+<rawtext>flushSyncCallbackQueue</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2414</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2414] (101 usec, 0.1%); self: 101 usec</details>
+<rect x='1122.1126293079603' y='416' width='0.5993552832076924' height='15' fill='rgb(222,81,9)' rx='2' ry='2' />
+<text x='1125.1126293079603' y='426.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>markRootFinished
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberLane:850</title>
+<details>Function: markRootFinished [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberLane:850] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1122.7119845911682' y='416' width='0.5934210724828637' height='15' fill='rgb(244,97,44)' rx='2' ry='2' />
+<text x='1125.7119845911682' y='426.5'></text>
+<rawtext>markRootFinished</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:304</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:304] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1123.305405663651' y='416' width='0.5934210724828637' height='15' fill='rgb(229,214,14)' rx='2' ry='2' />
+<text x='1126.305405663651' y='426.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:432</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:432] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='686.2626542014715' y='400' width='1.1868421449657274' height='15' fill='rgb(244,145,21)' rx='2' ry='2' />
+<text x='689.2626542014715' y='410.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>reconcileChildFibers
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1499</title>
+<details>Function: reconcileChildFibers [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1499] (1,600 usec, 0.8%); self: 1,200 usec</details>
+<rect x='676.7679170417456' y='400' width='9.494737159725819' height='15' fill='rgb(234,133,26)' rx='2' ry='2' />
+<text x='679.7679170417456' y='410.5'></text>
+<rawtext>reconcileChildFibers</rawtext>
+</g>
+<g>
+<title>pushHostContext
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:97</title>
+<details>Function: pushHostContext [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:97] (1,800 usec, 0.9%); self: 1,500 usec</details>
+<rect x='666.086337737054' y='400' width='10.681579304691548' height='15' fill='rgb(241,78,16)' rx='2' ry='2' />
+<text x='669.086337737054' y='410.5'></text>
+<rawtext>pushHostContext</rawtext>
+</g>
+<g>
+<title>tryToClaimNextHydratableInstance
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHydrationContext.new:271</title>
+<details>Function: tryToClaimNextHydratableInstance [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHydrationContext.new:271] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='687.4494963464372' y='400' width='0.5934210724828637' height='15' fill='rgb(250,107,29)' rx='2' ry='2' />
+<text x='690.4494963464372' y='410.5'></text>
+<rawtext>tryToClaimNextHydratableInstance</rawtext>
+</g>
+<g>
+<title>reconcileChildFibers
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1499</title>
+<details>Function: reconcileChildFibers [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1499] (700 usec, 0.4%); self: 100 usec</details>
+<rect x='712.8182471950796' y='400' width='4.153947507380046' height='15' fill='rgb(234,133,26)' rx='2' ry='2' />
+<text x='715.8182471950796' y='410.5'></text>
+<rawtext>reconcileChildFibers</rawtext>
+</g>
+<g>
+<title>renderWithHooks
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:188</title>
+<details>Function: renderWithHooks [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:188] (1,775 usec, 0.9%); self: 0 usec</details>
+<rect x='702.2850231585088' y='400' width='10.53322403657083' height='15' fill='rgb(205,193,16)' rx='2' ry='2' />
+<text x='705.2850231585088' y='410.5'></text>
+<rawtext>renderWithHooks</rawtext>
+</g>
+<g>
+<title>getUnmaskedContext
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberContext.new:68</title>
+<details>Function: getUnmaskedContext [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberContext.new:68] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='716.9721947024597' y='400' width='0.5934210724828637' height='15' fill='rgb(210,77,30)' rx='2' ry='2' />
+<text x='719.9721947024597' y='410.5'></text>
+<rawtext>getUnmaskedContext</rawtext>
+</g>
+<g>
+<title>renderWithHooks
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:188</title>
+<details>Function: renderWithHooks [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:188] (61,390 usec, 30.9%); self: 900 usec</details>
+<rect x='10.0' y='400' width='364.30119639723006' height='15' fill='rgb(205,193,16)' rx='2' ry='2' />
+<text x='13.0' y='410.5'>renderWithHooks</text>
+<rawtext>renderWithHooks</rawtext>
+</g>
+<g>
+<title>reconcileChildFibers
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1499</title>
+<details>Function: reconcileChildFibers [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1499] (40,558 usec, 20.4%); self: 2,700 usec</details>
+<rect x='374.30119639723006' y='400' width='240.67971857759986' height='15' fill='rgb(234,133,26)' rx='2' ry='2' />
+<text x='377.30119639723006' y='410.5'>reconcileChildFibers</text>
+<rawtext>reconcileChildFibers</rawtext>
+</g>
+<g>
+<title>getMaskedContext
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberContext.new:103</title>
+<details>Function: getMaskedContext [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberContext.new:103] (700 usec, 0.4%); self: 700 usec</details>
+<rect x='632.2613366055308' y='400' width='4.153947507380046' height='15' fill='rgb(224,93,3)' rx='2' ry='2' />
+<text x='635.2613366055308' y='410.5'></text>
+<rawtext>getMaskedContext</rawtext>
+</g>
+<g>
+<title>getUnmaskedContext
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberContext.new:68</title>
+<details>Function: getUnmaskedContext [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberContext.new:68] (1,312 usec, 0.7%); self: 300 usec</details>
+<rect x='624.4756521345557' y='400' width='7.7856844709751725' height='15' fill='rgb(210,77,30)' rx='2' ry='2' />
+<text x='627.4756521345557' y='410.5'></text>
+<rawtext>getUnmaskedContext</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberNewContext.new:346</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberNewContext.new:346] (1,600 usec, 0.8%); self: 1,600 usec</details>
+<rect x='614.9809149748298' y='400' width='9.494737159725819' height='15' fill='rgb(241,210,47)' rx='2' ry='2' />
+<text x='617.9809149748298' y='410.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>finishClassComponent
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:1091</title>
+<details>Function: finishClassComponent [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberBeginWork.new:1091] (600 usec, 0.3%); self: 0 usec</details>
+<rect x='717.5656157749426' y='400' width='3.5605264348971826' height='15' fill='rgb(205,218,14)' rx='2' ry='2' />
+<text x='720.5656157749426' y='410.5'></text>
+<rawtext>finishClassComponent</rawtext>
+</g>
+<g>
+<title>updateClassInstance
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberClassComponent.new:1188</title>
+<details>Function: updateClassInstance [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberClassComponent.new:1188] (500 usec, 0.3%); self: 100 usec</details>
+<rect x='721.1261422098398' y='400' width='2.967105362414318' height='15' fill='rgb(221,2,24)' rx='2' ry='2' />
+<text x='724.1261422098398' y='410.5'></text>
+<rawtext>updateClassInstance</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:206</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:206] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='724.686668644737' y='400' width='0.5934210724828637' height='15' fill='rgb(236,156,17)' rx='2' ry='2' />
+<text x='727.686668644737' y='410.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>pushHostContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:64</title>
+<details>Function: pushHostContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:64] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='725.2800897172198' y='400' width='0.5934210724828637' height='15' fill='rgb(254,207,28)' rx='2' ry='2' />
+<text x='728.2800897172198' y='410.5'></text>
+<rawtext>pushHostContainer</rawtext>
+</g>
+<g>
+<title>setInitialProperties
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:201</title>
+<details>Function: setInitialProperties [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:201] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='863.7726996132706' y='400' width='1.7802632174485913' height='15' fill='rgb(249,206,52)' rx='2' ry='2' />
+<text x='866.7726996132706' y='410.5'></text>
+<rawtext>setInitialProperties</rawtext>
+</g>
+<g>
+<title>prepareUpdate
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:399</title>
+<details>Function: prepareUpdate [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:399] (6,408 usec, 3.2%); self: 0 usec</details>
+<rect x='770.5581175476623' y='400' width='38.026422324701905' height='15' fill='rgb(220,36,30)' rx='2' ry='2' />
+<text x='773.5581175476623' y='410.5'>pre..</text>
+<rawtext>prepareUpdate</rawtext>
+</g>
+<g>
+<title>getHostContext
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:90</title>
+<details>Function: getHostContext [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:90] (300 usec, 0.2%); self: 300 usec</details>
+<rect x='808.5845398723642' y='400' width='1.7802632174485913' height='15' fill='rgb(251,81,51)' rx='2' ry='2' />
+<text x='811.5845398723642' y='410.5'></text>
+<rawtext>getHostContext</rawtext>
+</g>
+<g>
+<title>Instance.Name</title>
+<details>Function: Instance.Name [[C]:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='860.2121731783733' y='400' width='0.5934210724828637' height='15' fill='rgb(236,87,49)' rx='2' ry='2' />
+<text x='863.2121731783733' y='410.5'></text>
+<rawtext>Instance.Name</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506] (16,450 usec, 8.3%); self: 0 usec</details>
+<rect x='970.1552952772735' y='400' width='97.61776642343108' height='15' fill='rgb(211,204,40)' rx='2' ry='2' />
+<text x='973.1552952772735' y='410.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>recursivelyCommitLayoutEffects
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539</title>
+<details>Function: recursivelyCommitLayoutEffects [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539] (8,557 usec, 4.3%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='400' width='50.77904117235865' height='15' fill='rgb(252,227,14)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='410.5'>recur..</text>
+<rawtext>recursivelyCommitLayoutEffects</rawtext>
+</g>
+<g>
+<title>getNextLanes
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberLane:286</title>
+<details>Function: getNextLanes [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberLane:286] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1118.5521028730632' y='400' width='0.5934210724828637' height='15' fill='rgb(221,160,36)' rx='2' ry='2' />
+<text x='1121.5521028730632' y='410.5'></text>
+<rawtext>getNextLanes</rawtext>
+</g>
+<g>
+<title>returnNextLanesPriority
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberLane:510</title>
+<details>Function: returnNextLanesPriority [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberLane:510] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1119.145523945546' y='400' width='0.5934210724828637' height='15' fill='rgb(224,102,9)' rx='2' ry='2' />
+<text x='1122.145523945546' y='410.5'></text>
+<rawtext>returnNextLanesPriority</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:208</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:208] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='400' width='1.7802632174485913' height='15' fill='rgb(230,119,12)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='410.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.Shared-17.0.1-rc.12.Shared.ReactSymbols:84</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.Shared-17.0.1-rc.12.Shared.ReactSymbols:84] (300 usec, 0.2%); self: 300 usec</details>
+<rect x='676.7679170417456' y='384' width='1.7802632174485913' height='15' fill='rgb(206,104,43)' rx='2' ry='2' />
+<text x='679.7679170417456' y='394.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Array.isArray:2</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Array.isArray:2] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='678.5481802591943' y='384' width='0.5934210724828637' height='15' fill='rgb(249,35,10)' rx='2' ry='2' />
+<text x='681.5481802591943' y='394.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>requiredContext
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:47</title>
+<details>Function: requiredContext [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHostContext.new:47] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='666.086337737054' y='384' width='1.1868421449657274' height='15' fill='rgb(240,20,5)' rx='2' ry='2' />
+<text x='669.086337737054' y='394.5'></text>
+<rawtext>requiredContext</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:246</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:246] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='667.2731798820199' y='384' width='0.5934210724828637' height='15' fill='rgb(235,164,17)' rx='2' ry='2' />
+<text x='670.2731798820199' y='394.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>reconcileSingleElement
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1359</title>
+<details>Function: reconcileSingleElement [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1359] (200 usec, 0.1%); self: 100 usec</details>
+<rect x='714.5985104125283' y='384' width='1.1868421449657274' height='15' fill='rgb(221,83,19)' rx='2' ry='2' />
+<text x='717.5985104125283' y='394.5'></text>
+<rawtext>reconcileSingleElement</rawtext>
+</g>
+<g>
+<title>reconcileChildrenArray
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:913</title>
+<details>Function: reconcileChildrenArray [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:913] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='712.8182471950796' y='384' width='1.7802632174485913' height='15' fill='rgb(228,117,28)' rx='2' ry='2' />
+<text x='715.8182471950796' y='394.5'></text>
+<rawtext>reconcileChildrenArray</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Array.isArray:2</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Array.isArray:2] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='715.785352557494' y='384' width='0.5934210724828637' height='15' fill='rgb(249,35,10)' rx='2' ry='2' />
+<text x='718.785352557494' y='394.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>renderWithHooks
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHooks.new:2981</title>
+<details>Function: renderWithHooks [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHooks.new:2981] (1,775 usec, 0.9%); self: 100 usec</details>
+<rect x='702.2850231585088' y='384' width='10.53322403657083' height='15' fill='rgb(250,2,7)' rx='2' ry='2' />
+<text x='705.2850231585088' y='394.5'></text>
+<rawtext>renderWithHooks</rawtext>
+</g>
+<g>
+<title>renderWithHooks
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHooks.new:2981</title>
+<details>Function: renderWithHooks [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberHooks.new:2981] (60,490 usec, 30.4%); self: 5,828 usec</details>
+<rect x='10.0' y='384' width='358.96040674488427' height='15' fill='rgb(250,2,7)' rx='2' ry='2' />
+<text x='13.0' y='394.5'>renderWithHooks</text>
+<rawtext>renderWithHooks</rawtext>
+</g>
+<g>
+<title>reconcileSingleElement
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1359</title>
+<details>Function: reconcileSingleElement [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1359] (17,328 usec, 8.7%); self: 3,900 usec</details>
+<rect x='374.30119639723006' y='384' width='102.82800343983064' height='15' fill='rgb(221,83,19)' rx='2' ry='2' />
+<text x='377.30119639723006' y='394.5'>reconcileSin..</text>
+<rawtext>reconcileSingleElement</rawtext>
+</g>
+<g>
+<title>reconcileChildrenArray
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:913</title>
+<details>Function: reconcileChildrenArray [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:913] (16,730 usec, 8.4%); self: 3,100 usec</details>
+<rect x='477.12919983706064' y='384' width='99.2793454263831' height='15' fill='rgb(228,117,28)' rx='2' ry='2' />
+<text x='480.12919983706064' y='394.5'>reconcileChi..</text>
+<rawtext>reconcileChildrenArray</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Array.isArray:2</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Array.isArray:2] (3,800 usec, 1.9%); self: 3,800 usec</details>
+<rect x='576.4085452634438' y='384' width='22.550000754348822' height='15' fill='rgb(249,35,10)' rx='2' ry='2' />
+<text x='579.4085452634438' y='394.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>isContextProvider
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberContext.new:164</title>
+<details>Function: isContextProvider [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberContext.new:164] (1,012 usec, 0.5%); self: 1,012 usec</details>
+<rect x='624.4756521345557' y='384' width='6.005421253526581' height='15' fill='rgb(232,185,45)' rx='2' ry='2' />
+<text x='627.4756521345557' y='394.5'></text>
+<rawtext>isContextProvider</rawtext>
+</g>
+<g>
+<title>reconcileChildFibers
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1499</title>
+<details>Function: reconcileChildFibers [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1499] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='720.5327211373568' y='384' width='0.5934210724828637' height='15' fill='rgb(234,133,26)' rx='2' ry='2' />
+<text x='723.5327211373568' y='394.5'></text>
+<rawtext>reconcileChildFibers</rawtext>
+</g>
+<g>
+<title>render
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark:171</title>
+<details>Function: render [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark:171] (500 usec, 0.3%); self: 300 usec</details>
+<rect x='717.5656157749426' y='384' width='2.967105362414318' height='15' fill='rgb(246,50,2)' rx='2' ry='2' />
+<text x='720.5656157749426' y='394.5'></text>
+<rawtext>render</rawtext>
+</g>
+<g>
+<title>processUpdateQueue
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactUpdateQueue.new:493</title>
+<details>Function: processUpdateQueue [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactUpdateQueue.new:493] (300 usec, 0.2%); self: 200 usec</details>
+<rect x='721.1261422098398' y='384' width='1.7802632174485913' height='15' fill='rgb(216,111,13)' rx='2' ry='2' />
+<text x='724.1261422098398' y='394.5'></text>
+<rawtext>processUpdateQueue</rawtext>
+</g>
+<g>
+<title>applyDerivedStateFromProps
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberClassComponent.new:192</title>
+<details>Function: applyDerivedStateFromProps [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberClassComponent.new:192] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='722.9064054272883' y='384' width='0.5934210724828637' height='15' fill='rgb(208,19,42)' rx='2' ry='2' />
+<text x='725.9064054272883' y='394.5'></text>
+<rawtext>applyDerivedStateFromProps</rawtext>
+</g>
+<g>
+<title></title>
+<details>Function:  [[C]:0] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='724.686668644737' y='384' width='0.5934210724828637' height='15' fill='rgb(221,106,14)' rx='2' ry='2' />
+<text x='727.686668644737' y='394.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>push
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberStack.new:77</title>
+<details>Function: push [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberStack.new:77] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='725.2800897172198' y='384' width='0.5934210724828637' height='15' fill='rgb(228,145,16)' rx='2' ry='2' />
+<text x='728.2800897172198' y='394.5'></text>
+<rawtext>push</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='863.7726996132706' y='384' width='1.7802632174485913' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='866.7726996132706' y='394.5'></text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>diffProperties
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxComponent:32</title>
+<details>Function: diffProperties [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxComponent:32] (6,408 usec, 3.2%); self: 6,408 usec</details>
+<rect x='770.5581175476623' y='384' width='38.026422324701905' height='15' fill='rgb(219,116,54)' rx='2' ry='2' />
+<text x='773.5581175476623' y='394.5'>dif..</text>
+<rawtext>diffProperties</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506] (16,150 usec, 8.1%); self: 0 usec</details>
+<rect x='970.1552952772735' y='384' width='95.83750320598249' height='15' fill='rgb(211,204,40)' rx='2' ry='2' />
+<text x='973.1552952772735' y='394.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1065.992798483256' y='384' width='1.7802632174485913' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1068.992798483256' y='394.5'></text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (8,557 usec, 4.3%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='384' width='50.77904117235865' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='394.5'>xpcall</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='384' width='1.7802632174485913' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='394.5'></text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>createFiberFromElement
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:641</title>
+<details>Function: createFiberFromElement [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:641] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='714.5985104125283' y='368' width='0.5934210724828637' height='15' fill='rgb(230,14,14)' rx='2' ry='2' />
+<text x='717.5985104125283' y='378.5'></text>
+<rawtext>createFiberFromElement</rawtext>
+</g>
+<g>
+<title>createChild
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:606</title>
+<details>Function: createChild [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:606] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='712.8182471950796' y='368' width='1.7802632174485913' height='15' fill='rgb(231,212,4)' rx='2' ry='2' />
+<text x='715.8182471950796' y='378.5'></text>
+<rawtext>createChild</rawtext>
+</g>
+<g>
+<title>SierpinskiTriangle
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:32</title>
+<details>Function: SierpinskiTriangle [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:32] (1,475 usec, 0.7%); self: 0 usec</details>
+<rect x='702.2850231585088' y='368' width='8.75296081912224' height='15' fill='rgb(248,139,36)' rx='2' ry='2' />
+<text x='705.2850231585088' y='378.5'></text>
+<rawtext>SierpinskiTriangle</rawtext>
+</g>
+<g>
+<title>Dot
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.implementations.roact.Dot:2</title>
+<details>Function: Dot [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.implementations.roact.Dot:2] (200 usec, 0.1%); self: 100 usec</details>
+<rect x='711.037983977631' y='368' width='1.1868421449657274' height='15' fill='rgb(236,82,47)' rx='2' ry='2' />
+<text x='714.037983977631' y='378.5'></text>
+<rawtext>Dot</rawtext>
+</g>
+<g>
+<title>Dot
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.implementations.roact.Dot:2</title>
+<details>Function: Dot [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.implementations.roact.Dot:2] (18,206 usec, 9.2%); self: 3,600 usec</details>
+<rect x='226.3375861843528' y='368' width='108.03824045623017' height='15' fill='rgb(236,82,47)' rx='2' ry='2' />
+<text x='229.3375861843528' y='378.5'>Dot</text>
+<rawtext>Dot</rawtext>
+</g>
+<g>
+<title>SierpinskiTriangle
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:32</title>
+<details>Function: SierpinskiTriangle [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:32] (36,456 usec, 18.3%); self: 4,200 usec</details>
+<rect x='10.0' y='368' width='216.3375861843528' height='15' fill='rgb(248,139,36)' rx='2' ry='2' />
+<text x='13.0' y='378.5'>SierpinskiTriangle</text>
+<rawtext>SierpinskiTriangle</rawtext>
+</g>
+<g>
+<title>createWorkInProgress
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:294</title>
+<details>Function: createWorkInProgress [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:294] (11,528 usec, 5.8%); self: 11,228 usec</details>
+<rect x='374.30119639723006' y='368' width='68.40958123582452' height='15' fill='rgb(220,202,34)' rx='2' ry='2' />
+<text x='377.30119639723006' y='378.5'>createW..</text>
+<rawtext>createWorkInProgress</rawtext>
+</g>
+<g>
+<title>coerceRef
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:144</title>
+<details>Function: coerceRef [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:144] (1,900 usec, 1.0%); self: 1,900 usec</details>
+<rect x='442.71077763305453' y='368' width='11.275000377174411' height='15' fill='rgb(248,163,24)' rx='2' ry='2' />
+<text x='445.71077763305453' y='378.5'></text>
+<rawtext>coerceRef</rawtext>
+</g>
+<g>
+<title>updateSlot
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:684</title>
+<details>Function: updateSlot [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:684] (12,830 usec, 6.5%); self: 2,412 usec</details>
+<rect x='477.12919983706064' y='368' width='76.1359235995514' height='15' fill='rgb(232,163,53)' rx='2' ry='2' />
+<text x='480.12919983706064' y='378.5'>updateSlot</text>
+<rawtext>updateSlot</rawtext>
+</g>
+<g>
+<title>placeChild
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:416</title>
+<details>Function: placeChild [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:416] (800 usec, 0.4%); self: 800 usec</details>
+<rect x='553.265123436612' y='368' width='4.7473685798629095' height='15' fill='rgb(221,214,49)' rx='2' ry='2' />
+<text x='556.265123436612' y='378.5'></text>
+<rawtext>placeChild</rawtext>
+</g>
+<g>
+<title>reconcileSingleElement
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1359</title>
+<details>Function: reconcileSingleElement [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:1359] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='720.5327211373568' y='368' width='0.5934210724828637' height='15' fill='rgb(221,83,19)' rx='2' ry='2' />
+<text x='723.5327211373568' y='378.5'></text>
+<rawtext>reconcileSingleElement</rawtext>
+</g>
+<g>
+<title>join
+LoadedCode.RoactAlignment._Index.Cryo.Cryo.Dictionary.join:12</title>
+<details>Function: join [LoadedCode.RoactAlignment._Index.Cryo.Cryo.Dictionary.join:12] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='717.5656157749426' y='368' width='0.5934210724828637' height='15' fill='rgb(222,107,3)' rx='2' ry='2' />
+<text x='720.5656157749426' y='378.5'></text>
+<rawtext>join</rawtext>
+</g>
+<g>
+<title>createElement
+LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:393</title>
+<details>Function: createElement [LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:393] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='718.1590368474255' y='368' width='0.5934210724828637' height='15' fill='rgb(249,191,8)' rx='2' ry='2' />
+<text x='721.1590368474255' y='378.5'></text>
+<rawtext>createElement</rawtext>
+</g>
+<g>
+<title>getStateFromUpdate
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactUpdateQueue.new:389</title>
+<details>Function: getStateFromUpdate [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactUpdateQueue.new:389] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='721.1261422098398' y='368' width='0.5934210724828637' height='15' fill='rgb(253,102,31)' rx='2' ry='2' />
+<text x='724.1261422098398' y='378.5'></text>
+<rawtext>getStateFromUpdate</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Object.assign:14</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-9da83481-5a1c8ec8.LuauPolyfill.Object.assign:14] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='722.9064054272883' y='368' width='0.5934210724828637' height='15' fill='rgb(222,221,40)' rx='2' ry='2' />
+<text x='725.9064054272883' y='378.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='724.686668644737' y='368' width='0.5934210724828637' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='727.686668644737' y='378.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>applyProps
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:190</title>
+<details>Function: applyProps [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:190] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='863.7726996132706' y='368' width='1.7802632174485913' height='15' fill='rgb(251,68,29)' rx='2' ry='2' />
+<text x='866.7726996132706' y='378.5'></text>
+<rawtext>applyProps</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506] (16,150 usec, 8.1%); self: 0 usec</details>
+<rect x='970.1552952772735' y='368' width='95.83750320598249' height='15' fill='rgb(211,204,40)' rx='2' ry='2' />
+<text x='973.1552952772735' y='378.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2571</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2571] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1065.992798483256' y='368' width='1.7802632174485913' height='15' fill='rgb(227,134,30)' rx='2' ry='2' />
+<text x='1068.992798483256' y='378.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>recursivelyCommitLayoutEffects
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539</title>
+<details>Function: recursivelyCommitLayoutEffects [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539] (8,557 usec, 4.3%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='368' width='50.77904117235865' height='15' fill='rgb(252,227,14)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='378.5'>recur..</text>
+<rawtext>recursivelyCommitLayoutEffects</rawtext>
+</g>
+<g>
+<title>runWithPriority
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:157</title>
+<details>Function: runWithPriority [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:157] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='368' width='1.7802632174485913' height='15' fill='rgb(212,74,2)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='378.5'></text>
+<rawtext>runWithPriority</rawtext>
+</g>
+<g>
+<title>createFiberFromTypeAndProps
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:492</title>
+<details>Function: createFiberFromTypeAndProps [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:492] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='714.5985104125283' y='352' width='0.5934210724828637' height='15' fill='rgb(243,224,38)' rx='2' ry='2' />
+<text x='717.5985104125283' y='362.5'></text>
+<rawtext>createFiberFromTypeAndProps</rawtext>
+</g>
+<g>
+<title>createFiberFromElement
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:641</title>
+<details>Function: createFiberFromElement [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:641] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='712.8182471950796' y='352' width='1.7802632174485913' height='15' fill='rgb(230,14,14)' rx='2' ry='2' />
+<text x='715.8182471950796' y='362.5'></text>
+<rawtext>createFiberFromElement</rawtext>
+</g>
+<g>
+<title>interpolatePurples
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:19</title>
+<details>Function: interpolatePurples [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:19] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='710.4445629051482' y='352' width='0.5934210724828637' height='15' fill='rgb(238,42,50)' rx='2' ry='2' />
+<text x='713.4445629051482' y='362.5'></text>
+<rawtext>interpolatePurples</rawtext>
+</g>
+<g>
+<title>createElement
+LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:393</title>
+<details>Function: createElement [LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:393] (400 usec, 0.2%); self: 200 usec</details>
+<rect x='708.0708786152168' y='352' width='2.3736842899314547' height='15' fill='rgb(249,191,8)' rx='2' ry='2' />
+<text x='711.0708786152168' y='362.5'></text>
+<rawtext>createElement</rawtext>
+</g>
+<g>
+<title>interpolateRdPu
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:27</title>
+<details>Function: interpolateRdPu [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:27] (975 usec, 0.5%); self: 0 usec</details>
+<rect x='702.2850231585088' y='352' width='5.785855456707921' height='15' fill='rgb(233,78,8)' rx='2' ry='2' />
+<text x='705.2850231585088' y='362.5'></text>
+<rawtext>interpolateRdPu</rawtext>
+</g>
+<g>
+<title>createElement
+LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:393</title>
+<details>Function: createElement [LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:393] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='711.037983977631' y='352' width='0.5934210724828637' height='15' fill='rgb(249,191,8)' rx='2' ry='2' />
+<text x='714.037983977631' y='362.5'></text>
+<rawtext>createElement</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (1,300 usec, 0.7%); self: 1,300 usec</details>
+<rect x='302.92450979899115' y='352' width='7.714473942277228' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='305.92450979899115' y='362.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>createElement
+LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:393</title>
+<details>Function: createElement [LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:393] (12,906 usec, 6.5%); self: 8,104 usec</details>
+<rect x='226.3375861843528' y='352' width='76.5869236146384' height='15' fill='rgb(249,191,8)' rx='2' ry='2' />
+<text x='229.3375861843528' y='362.5'>createEl..</text>
+<rawtext>createElement</rawtext>
+</g>
+<g>
+<title>new</title>
+<details>Function: new [[C]:0] (400 usec, 0.2%); self: 0 usec</details>
+<rect x='310.63898374126836' y='352' width='2.3736842899314547' height='15' fill='rgb(221,123,27)' rx='2' ry='2' />
+<text x='313.63898374126836' y='362.5'></text>
+<rawtext>new</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (3,336 usec, 1.7%); self: 3,336 usec</details>
+<rect x='154.2903337742083' y='352' width='19.796526978028332' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='157.2903337742083' y='362.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>interpolateRdPu
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:27</title>
+<details>Function: interpolateRdPu [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:27] (1,400 usec, 0.7%); self: 500 usec</details>
+<rect x='193.10600612531243' y='352' width='8.307895014760092' height='15' fill='rgb(233,78,8)' rx='2' ry='2' />
+<text x='196.10600612531243' y='362.5'></text>
+<rawtext>interpolateRdPu</rawtext>
+</g>
+<g>
+<title>createElement
+LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:393</title>
+<details>Function: createElement [LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:393] (24,315 usec, 12.2%); self: 15,700 usec</details>
+<rect x='10.0' y='352' width='144.2903337742083' height='15' fill='rgb(249,191,8)' rx='2' ry='2' />
+<text x='13.0' y='362.5'>createElement</text>
+<rawtext>createElement</rawtext>
+</g>
+<g>
+<title>interpolateBuPu
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:23</title>
+<details>Function: interpolateBuPu [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:23] (1,605 usec, 0.8%); self: 705 usec</details>
+<rect x='174.08686075223665' y='352' width='9.524408213349963' height='15' fill='rgb(229,96,51)' rx='2' ry='2' />
+<text x='177.08686075223665' y='362.5'></text>
+<rawtext>interpolateBuPu</rawtext>
+</g>
+<g>
+<title>interpolatePurples
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:19</title>
+<details>Function: interpolatePurples [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:19] (1,600 usec, 0.8%); self: 1,000 usec</details>
+<rect x='183.61126896558662' y='352' width='9.494737159725819' height='15' fill='rgb(238,42,50)' rx='2' ry='2' />
+<text x='186.61126896558662' y='362.5'></text>
+<rawtext>interpolatePurples</rawtext>
+</g>
+<g>
+<title>FiberNode
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:139</title>
+<details>Function: FiberNode [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:139] (300 usec, 0.2%); self: 200 usec</details>
+<rect x='374.30119639723006' y='352' width='1.7802632174485913' height='15' fill='rgb(215,112,17)' rx='2' ry='2' />
+<text x='377.30119639723006' y='362.5'></text>
+<rawtext>FiberNode</rawtext>
+</g>
+<g>
+<title>updateElement
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:473</title>
+<details>Function: updateElement [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:473] (10,418 usec, 5.2%); self: 2,000 usec</details>
+<rect x='477.12919983706064' y='352' width='61.82260733126474' height='15' fill='rgb(250,106,8)' rx='2' ry='2' />
+<text x='480.12919983706064' y='362.5'>update..</text>
+<rawtext>updateElement</rawtext>
+</g>
+<g>
+<title>applyProp
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:145</title>
+<details>Function: applyProp [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:145] (300 usec, 0.2%); self: 200 usec</details>
+<rect x='863.7726996132706' y='352' width='1.7802632174485913' height='15' fill='rgb(216,70,43)' rx='2' ry='2' />
+<text x='866.7726996132706' y='362.5'></text>
+<rawtext>applyProp</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506] (16,150 usec, 8.1%); self: 0 usec</details>
+<rect x='970.1552952772735' y='352' width='95.83750320598249' height='15' fill='rgb(211,204,40)' rx='2' ry='2' />
+<text x='973.1552952772735' y='362.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>commitPlacement
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1472</title>
+<details>Function: commitPlacement [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1472] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1065.992798483256' y='352' width='1.7802632174485913' height='15' fill='rgb(231,29,42)' rx='2' ry='2' />
+<text x='1068.992798483256' y='362.5'></text>
+<rawtext>commitPlacement</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (8,557 usec, 4.3%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='352' width='50.77904117235865' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='362.5'>xpcall</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>unstable_runWithPriority
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:340</title>
+<details>Function: unstable_runWithPriority [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:340] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='352' width='1.7802632174485913' height='15' fill='rgb(218,8,10)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='362.5'></text>
+<rawtext>unstable_runWithPriority</rawtext>
+</g>
+<g>
+<title>FiberNode
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:139</title>
+<details>Function: FiberNode [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:139] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='714.5985104125283' y='336' width='0.5934210724828637' height='15' fill='rgb(215,112,17)' rx='2' ry='2' />
+<text x='717.5985104125283' y='346.5'></text>
+<rawtext>FiberNode</rawtext>
+</g>
+<g>
+<title>createFiberFromTypeAndProps
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:492</title>
+<details>Function: createFiberFromTypeAndProps [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:492] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='712.8182471950796' y='336' width='1.7802632174485913' height='15' fill='rgb(243,224,38)' rx='2' ry='2' />
+<text x='715.8182471950796' y='346.5'></text>
+<rawtext>createFiberFromTypeAndProps</rawtext>
+</g>
+<g>
+<title>interpolateColors
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:13</title>
+<details>Function: interpolateColors [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:13] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='710.4445629051482' y='336' width='0.5934210724828637' height='15' fill='rgb(249,178,45)' rx='2' ry='2' />
+<text x='713.4445629051482' y='346.5'></text>
+<rawtext>interpolateColors</rawtext>
+</g>
+<g>
+<title>ReactElement
+LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:202</title>
+<details>Function: ReactElement [LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:202] (200 usec, 0.1%); self: 100 usec</details>
+<rect x='708.0708786152168' y='336' width='1.1868421449657274' height='15' fill='rgb(219,186,23)' rx='2' ry='2' />
+<text x='711.0708786152168' y='346.5'></text>
+<rawtext>ReactElement</rawtext>
+</g>
+<g>
+<title>interpolateColors
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:13</title>
+<details>Function: interpolateColors [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:13] (975 usec, 0.5%); self: 975 usec</details>
+<rect x='702.2850231585088' y='336' width='5.785855456707921' height='15' fill='rgb(249,178,45)' rx='2' ry='2' />
+<text x='705.2850231585088' y='346.5'></text>
+<rawtext>interpolateColors</rawtext>
+</g>
+<g>
+<title>ReactElement
+LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:202</title>
+<details>Function: ReactElement [LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:202] (4,202 usec, 2.1%); self: 1,500 usec</details>
+<rect x='226.3375861843528' y='336' width='24.935553465729935' height='15' fill='rgb(219,186,23)' rx='2' ry='2' />
+<text x='229.3375861843528' y='346.5'>R..</text>
+<rawtext>ReactElement</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (600 usec, 0.3%); self: 600 usec</details>
+<rect x='251.27313965008275' y='336' width='3.5605264348971826' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='254.27313965008275' y='346.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (400 usec, 0.2%); self: 400 usec</details>
+<rect x='310.63898374126836' y='336' width='2.3736842899314547' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='313.63898374126836' y='346.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>interpolateColors
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:13</title>
+<details>Function: interpolateColors [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:13] (800 usec, 0.4%); self: 600 usec</details>
+<rect x='193.10600612531243' y='336' width='4.7473685798629095' height='15' fill='rgb(249,178,45)' rx='2' ry='2' />
+<text x='196.10600612531243' y='346.5'></text>
+<rawtext>interpolateColors</rawtext>
+</g>
+<g>
+<title>fromHSV</title>
+<details>Function: fromHSV [[C]:0] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='197.85337470517533' y='336' width='0.5934210724828637' height='15' fill='rgb(221,199,40)' rx='2' ry='2' />
+<text x='200.85337470517533' y='346.5'></text>
+<rawtext>fromHSV</rawtext>
+</g>
+<g>
+<title>ReactElement
+LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:202</title>
+<details>Function: ReactElement [LoadedCode.RoactAlignment._Workspace.React.React.ReactElement:202] (8,115 usec, 4.1%); self: 2,600 usec</details>
+<rect x='10.0' y='336' width='48.156120031984386' height='15' fill='rgb(219,186,23)' rx='2' ry='2' />
+<text x='13.0' y='346.5'>Reac..</text>
+<rawtext>ReactElement</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (500 usec, 0.3%); self: 500 usec</details>
+<rect x='58.156120031984386' y='336' width='2.967105362414318' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='61.156120031984386' y='346.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>interpolateColors
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:13</title>
+<details>Function: interpolateColors [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:13] (800 usec, 0.4%); self: 800 usec</details>
+<rect x='174.08686075223665' y='336' width='4.7473685798629095' height='15' fill='rgb(249,178,45)' rx='2' ry='2' />
+<text x='177.08686075223665' y='346.5'></text>
+<rawtext>interpolateColors</rawtext>
+</g>
+<g>
+<title>fromHSV</title>
+<details>Function: fromHSV [[C]:0] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='178.83422933209954' y='336' width='0.5934210724828637' height='15' fill='rgb(221,199,40)' rx='2' ry='2' />
+<text x='181.83422933209954' y='346.5'></text>
+<rawtext>fromHSV</rawtext>
+</g>
+<g>
+<title>interpolateColors
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:13</title>
+<details>Function: interpolateColors [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.cases.SierpinskiTriangle:13] (600 usec, 0.3%); self: 600 usec</details>
+<rect x='183.61126896558662' y='336' width='3.5605264348971826' height='15' fill='rgb(249,178,45)' rx='2' ry='2' />
+<text x='186.61126896558662' y='346.5'></text>
+<rawtext>interpolateColors</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='374.30119639723006' y='336' width='0.5934210724828637' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='377.30119639723006' y='346.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>createWorkInProgress
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:294</title>
+<details>Function: createWorkInProgress [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:294] (8,018 usec, 4.0%); self: 7,718 usec</details>
+<rect x='477.12919983706064' y='336' width='47.58050159167601' height='15' fill='rgb(220,202,34)' rx='2' ry='2' />
+<text x='480.12919983706064' y='346.5'>crea..</text>
+<rawtext>createWorkInProgress</rawtext>
+</g>
+<g>
+<title>coerceRef
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:144</title>
+<details>Function: coerceRef [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactChildFiber.new:144] (400 usec, 0.2%); self: 400 usec</details>
+<rect x='524.7097014287367' y='336' width='2.3736842899314547' height='15' fill='rgb(248,163,24)' rx='2' ry='2' />
+<text x='527.7097014287367' y='346.5'></text>
+<rawtext>coerceRef</rawtext>
+</g>
+<g>
+<title>ImageLabel.Image</title>
+<details>Function: ImageLabel.Image [[C]:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='863.7726996132706' y='336' width='0.5934210724828637' height='15' fill='rgb(222,32,10)' rx='2' ry='2' />
+<text x='866.7726996132706' y='346.5'></text>
+<rawtext>ImageLabel.Image</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506] (16,150 usec, 8.1%); self: 0 usec</details>
+<rect x='970.1552952772735' y='336' width='95.83750320598249' height='15' fill='rgb(211,204,40)' rx='2' ry='2' />
+<text x='973.1552952772735' y='346.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>insertOrAppendPlacementNodeIntoContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523</title>
+<details>Function: insertOrAppendPlacementNodeIntoContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1065.992798483256' y='336' width='1.7802632174485913' height='15' fill='rgb(219,199,17)' rx='2' ry='2' />
+<text x='1068.992798483256' y='346.5'></text>
+<rawtext>insertOrAppendPlacementNodeIntoContainer</rawtext>
+</g>
+<g>
+<title>recursivelyCommitLayoutEffects
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539</title>
+<details>Function: recursivelyCommitLayoutEffects [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539] (8,557 usec, 4.3%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='336' width='50.77904117235865' height='15' fill='rgb(252,227,14)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='346.5'>recur..</text>
+<rawtext>recursivelyCommitLayoutEffects</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='336' width='1.7802632174485913' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='346.5'></text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='714.5985104125283' y='320' width='0.5934210724828637' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='717.5985104125283' y='330.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>FiberNode
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:139</title>
+<details>Function: FiberNode [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:139] (300 usec, 0.2%); self: 200 usec</details>
+<rect x='712.8182471950796' y='320' width='1.7802632174485913' height='15' fill='rgb(215,112,17)' rx='2' ry='2' />
+<text x='715.8182471950796' y='330.5'></text>
+<rawtext>FiberNode</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='708.0708786152168' y='320' width='0.5934210724828637' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='711.0708786152168' y='330.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (2,702 usec, 1.4%); self: 2,702 usec</details>
+<rect x='226.3375861843528' y='320' width='16.034237378486978' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='229.3375861843528' y='330.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title></title>
+<details>Function:  [[C]:0] (200 usec, 0.1%); self: 0 usec</details>
+<rect x='193.10600612531243' y='320' width='1.1868421449657274' height='15' fill='rgb(221,106,14)' rx='2' ry='2' />
+<text x='196.10600612531243' y='330.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='197.85337470517533' y='320' width='0.5934210724828637' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='200.85337470517533' y='330.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (5,515 usec, 2.8%); self: 5,515 usec</details>
+<rect x='10.0' y='320' width='32.72717214742993' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='13.0' y='330.5'>GC</text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='178.83422933209954' y='320' width='0.5934210724828637' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='181.83422933209954' y='330.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>FiberNode
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:139</title>
+<details>Function: FiberNode [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiber.new:139] (300 usec, 0.2%); self: 100 usec</details>
+<rect x='477.12919983706064' y='320' width='1.7802632174485913' height='15' fill='rgb(215,112,17)' rx='2' ry='2' />
+<text x='480.12919983706064' y='330.5'></text>
+<rawtext>FiberNode</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506] (16,150 usec, 8.1%); self: 0 usec</details>
+<rect x='970.1552952772735' y='320' width='95.83750320598249' height='15' fill='rgb(211,204,40)' rx='2' ry='2' />
+<text x='973.1552952772735' y='330.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>insertOrAppendPlacementNodeIntoContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523</title>
+<details>Function: insertOrAppendPlacementNodeIntoContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1065.992798483256' y='320' width='1.7802632174485913' height='15' fill='rgb(219,199,17)' rx='2' ry='2' />
+<text x='1068.992798483256' y='330.5'></text>
+<rawtext>insertOrAppendPlacementNodeIntoContainer</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (8,557 usec, 4.3%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='320' width='50.77904117235865' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='330.5'>xpcall</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:226</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:226] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='320' width='1.7802632174485913' height='15' fill='rgb(222,142,20)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='330.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='712.8182471950796' y='304' width='0.5934210724828637' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='715.8182471950796' y='314.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='193.10600612531243' y='304' width='1.1868421449657274' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='196.10600612531243' y='314.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='477.12919983706064' y='304' width='1.1868421449657274' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='480.12919983706064' y='314.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506] (16,150 usec, 8.1%); self: 100 usec</details>
+<rect x='970.1552952772735' y='304' width='95.83750320598249' height='15' fill='rgb(211,204,40)' rx='2' ry='2' />
+<text x='973.1552952772735' y='314.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>insertOrAppendPlacementNodeIntoContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523</title>
+<details>Function: insertOrAppendPlacementNodeIntoContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1065.992798483256' y='304' width='1.7802632174485913' height='15' fill='rgb(219,199,17)' rx='2' ry='2' />
+<text x='1068.992798483256' y='314.5'></text>
+<rawtext>insertOrAppendPlacementNodeIntoContainer</rawtext>
+</g>
+<g>
+<title>recursivelyCommitLayoutEffects
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539</title>
+<details>Function: recursivelyCommitLayoutEffects [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539] (8,557 usec, 4.3%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='304' width='50.77904117235865' height='15' fill='rgb(252,227,14)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='314.5'>recur..</text>
+<rawtext>recursivelyCommitLayoutEffects</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:823</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:823] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='304' width='1.7802632174485913' height='15' fill='rgb(243,104,1)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='314.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506] (16,050 usec, 8.1%); self: 300 usec</details>
+<rect x='970.1552952772735' y='288' width='95.24408213349963' height='15' fill='rgb(211,204,40)' rx='2' ry='2' />
+<text x='973.1552952772735' y='298.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>insertOrAppendPlacementNodeIntoContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523</title>
+<details>Function: insertOrAppendPlacementNodeIntoContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1065.992798483256' y='288' width='1.7802632174485913' height='15' fill='rgb(219,199,17)' rx='2' ry='2' />
+<text x='1068.992798483256' y='298.5'></text>
+<rawtext>insertOrAppendPlacementNodeIntoContainer</rawtext>
+</g>
+<g>
+<title>commitLayoutEffectsForClassComponent
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:884</title>
+<details>Function: commitLayoutEffectsForClassComponent [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:884] (1,500 usec, 0.8%); self: 0 usec</details>
+<rect x='1109.6507867858202' y='288' width='8.901316087242956' height='15' fill='rgb(208,78,16)' rx='2' ry='2' />
+<text x='1112.6507867858202' y='298.5'></text>
+<rawtext>commitLayoutEffectsForClassComponent</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (7,057 usec, 3.5%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='288' width='41.87772508511569' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='298.5'>xpc..</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1079</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:1079] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='288' width='1.7802632174485913' height='15' fill='rgb(213,123,31)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='298.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506] (15,450 usec, 7.8%); self: 1,608 usec</details>
+<rect x='970.1552952772735' y='272' width='91.68355569860243' height='15' fill='rgb(211,204,40)' rx='2' ry='2' />
+<text x='973.1552952772735' y='282.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1061.8388509758759' y='272' width='1.7802632174485913' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1064.8388509758759' y='282.5'></text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>insertOrAppendPlacementNodeIntoContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523</title>
+<details>Function: insertOrAppendPlacementNodeIntoContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1065.992798483256' y='272' width='1.7802632174485913' height='15' fill='rgb(219,199,17)' rx='2' ry='2' />
+<text x='1068.992798483256' y='282.5'></text>
+<rawtext>insertOrAppendPlacementNodeIntoContainer</rawtext>
+</g>
+<g>
+<title>componentDidUpdate
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark:140</title>
+<details>Function: componentDidUpdate [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark:140] (1,500 usec, 0.8%); self: 100 usec</details>
+<rect x='1109.6507867858202' y='272' width='8.901316087242956' height='15' fill='rgb(244,192,44)' rx='2' ry='2' />
+<text x='1112.6507867858202' y='282.5'></text>
+<rawtext>componentDidUpdate</rawtext>
+</g>
+<g>
+<title>recursivelyCommitLayoutEffects
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539</title>
+<details>Function: recursivelyCommitLayoutEffects [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539] (7,057 usec, 3.5%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='272' width='41.87772508511569' height='15' fill='rgb(252,227,14)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='282.5'>rec..</text>
+<rawtext>recursivelyCommitLayoutEffects</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2037</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2037] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='272' width='1.7802632174485913' height='15' fill='rgb(212,203,51)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='282.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506] (13,342 usec, 6.7%); self: 1,700 usec</details>
+<rect x='970.1552952772735' y='256' width='79.17423949066368' height='15' fill='rgb(211,204,40)' rx='2' ry='2' />
+<text x='973.1552952772735' y='266.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (500 usec, 0.3%); self: 0 usec</details>
+<rect x='1049.329534767937' y='256' width='2.967105362414318' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1052.329534767937' y='266.5'></text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2571</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2571] (300 usec, 0.2%); self: 300 usec</details>
+<rect x='1061.8388509758759' y='256' width='1.7802632174485913' height='15' fill='rgb(227,134,30)' rx='2' ry='2' />
+<text x='1064.8388509758759' y='266.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>insertOrAppendPlacementNodeIntoContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523</title>
+<details>Function: insertOrAppendPlacementNodeIntoContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1065.992798483256' y='256' width='1.7802632174485913' height='15' fill='rgb(219,199,17)' rx='2' ry='2' />
+<text x='1068.992798483256' y='266.5'></text>
+<rawtext>insertOrAppendPlacementNodeIntoContainer</rawtext>
+</g>
+<g>
+<title>_handleComplete
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark:304</title>
+<details>Function: _handleComplete [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark:304] (1,300 usec, 0.7%); self: 0 usec</details>
+<rect x='1109.6507867858202' y='256' width='7.714473942277228' height='15' fill='rgb(254,194,14)' rx='2' ry='2' />
+<text x='1112.6507867858202' y='266.5'></text>
+<rawtext>_handleComplete</rawtext>
+</g>
+<g>
+<title>now
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark.timing:1</title>
+<details>Function: now [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark.timing:1] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1117.3652607280974' y='256' width='0.5934210724828637' height='15' fill='rgb(243,90,24)' rx='2' ry='2' />
+<text x='1120.3652607280974' y='266.5'></text>
+<rawtext>now</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (7,057 usec, 3.5%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='256' width='41.87772508511569' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='266.5'>xpc..</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>runWithPriority
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:157</title>
+<details>Function: runWithPriority [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.SchedulerWithReactIntegration.new:157] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='256' width='1.7802632174485913' height='15' fill='rgb(212,74,2)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='266.5'></text>
+<rawtext>runWithPriority</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506] (11,041 usec, 5.6%); self: 1,220 usec</details>
+<rect x='970.1552952772735' y='240' width='65.51962061283298' height='15' fill='rgb(211,204,40)' rx='2' ry='2' />
+<text x='973.1552952772735' y='250.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (601 usec, 0.3%); self: 0 usec</details>
+<rect x='1035.6749158901064' y='240' width='3.566460645622011' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1038.6749158901064' y='250.5'></text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2571</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2571] (500 usec, 0.3%); self: 500 usec</details>
+<rect x='1049.329534767937' y='240' width='2.967105362414318' height='15' fill='rgb(227,134,30)' rx='2' ry='2' />
+<text x='1052.329534767937' y='250.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>insertOrAppendPlacementNodeIntoContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523</title>
+<details>Function: insertOrAppendPlacementNodeIntoContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1065.992798483256' y='240' width='1.7802632174485913' height='15' fill='rgb(219,199,17)' rx='2' ry='2' />
+<text x='1068.992798483256' y='250.5'></text>
+<rawtext>insertOrAppendPlacementNodeIntoContainer</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmark:45</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmark:45] (1,200 usec, 0.6%); self: 900 usec</details>
+<rect x='1109.6507867858202' y='240' width='7.121052869794365' height='15' fill='rgb(213,1,16)' rx='2' ry='2' />
+<text x='1112.6507867858202' y='250.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark.math:27</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.benchmarks.app.Benchmark.math:27] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1116.7718396556145' y='240' width='0.5934210724828637' height='15' fill='rgb(245,159,49)' rx='2' ry='2' />
+<text x='1119.7718396556145' y='250.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>recursivelyCommitLayoutEffects
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539</title>
+<details>Function: recursivelyCommitLayoutEffects [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539] (7,057 usec, 3.5%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='240' width='41.87772508511569' height='15' fill='rgb(252,227,14)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='250.5'>rec..</text>
+<rawtext>recursivelyCommitLayoutEffects</rawtext>
+</g>
+<g>
+<title>unstable_runWithPriority
+LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:340</title>
+<details>Function: unstable_runWithPriority [LoadedCode.RoactAlignment._Workspace.Scheduler.Scheduler.Scheduler:340] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='240' width='1.7802632174485913' height='15' fill='rgb(218,8,10)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='250.5'></text>
+<rawtext>unstable_runWithPriority</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (9,821 usec, 4.9%); self: 0 usec</details>
+<rect x='970.1552952772735' y='224' width='58.279883528542044' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='973.1552952772735' y='234.5'>xpcall</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2571</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2571] (601 usec, 0.3%); self: 601 usec</details>
+<rect x='1035.6749158901064' y='224' width='3.566460645622011' height='15' fill='rgb(227,134,30)' rx='2' ry='2' />
+<text x='1038.6749158901064' y='234.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>insertOrAppendPlacementNodeIntoContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523</title>
+<details>Function: insertOrAppendPlacementNodeIntoContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1065.992798483256' y='224' width='1.7802632174485913' height='15' fill='rgb(219,199,17)' rx='2' ry='2' />
+<text x='1068.992798483256' y='234.5'></text>
+<rawtext>insertOrAppendPlacementNodeIntoContainer</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.bootstrap:6</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.bootstrap:6] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1110.837628930786' y='224' width='0.5934210724828637' height='15' fill='rgb(219,197,54)' rx='2' ry='2' />
+<text x='1113.837628930786' y='234.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>formatBenchmark
+LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.utils.formatBenchmark:11</title>
+<details>Function: formatBenchmark [LoadedCode.RoactAlignment._Index.PerformanceBenchmarks.PerformanceBenchmarks.utils.formatBenchmark:11] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='1109.6507867858202' y='224' width='1.1868421449657274' height='15' fill='rgb(215,184,32)' rx='2' ry='2' />
+<text x='1112.6507867858202' y='234.5'></text>
+<rawtext>formatBenchmark</rawtext>
+</g>
+<g>
+<title>sort
+LoadedCode.RoactAlignment._Index.LuauPolyfill-2fca3173-0.2.6.LuauPolyfill.Array.sort:7</title>
+<details>Function: sort [LoadedCode.RoactAlignment._Index.LuauPolyfill-2fca3173-0.2.6.LuauPolyfill.Array.sort:7] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1116.7718396556145' y='224' width='0.5934210724828637' height='15' fill='rgb(231,211,4)' rx='2' ry='2' />
+<text x='1119.7718396556145' y='234.5'></text>
+<rawtext>sort</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (7,057 usec, 3.5%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='224' width='41.87772508511569' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='234.5'>xpc..</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='224' width='1.7802632174485913' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='234.5'></text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1027.8417577333328' y='208' width='0.5934210724828637' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='1030.8417577333328' y='218.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2571</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2571] (9,721 usec, 4.9%); self: 1,400 usec</details>
+<rect x='970.1552952772735' y='208' width='57.68646245605918' height='15' fill='rgb(227,134,30)' rx='2' ry='2' />
+<text x='973.1552952772735' y='218.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>insertOrAppendPlacementNodeIntoContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523</title>
+<details>Function: insertOrAppendPlacementNodeIntoContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1065.992798483256' y='208' width='1.7802632174485913' height='15' fill='rgb(219,199,17)' rx='2' ry='2' />
+<text x='1068.992798483256' y='218.5'></text>
+<rawtext>insertOrAppendPlacementNodeIntoContainer</rawtext>
+</g>
+<g>
+<title>Instance.Parent</title>
+<details>Function: Instance.Parent [[C]:0] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1110.837628930786' y='208' width='0.5934210724828637' height='15' fill='rgb(242,135,17)' rx='2' ry='2' />
+<text x='1113.837628930786' y='218.5'></text>
+<rawtext>Instance.Parent</rawtext>
+</g>
+<g>
+<title>sort</title>
+<details>Function: sort [[C]:0] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1116.7718396556145' y='208' width='0.5934210724828637' height='15' fill='rgb(239,127,38)' rx='2' ry='2' />
+<text x='1119.7718396556145' y='218.5'></text>
+<rawtext>sort</rawtext>
+</g>
+<g>
+<title>recursivelyCommitLayoutEffects
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539</title>
+<details>Function: recursivelyCommitLayoutEffects [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539] (7,057 usec, 3.5%); self: 200 usec</details>
+<rect x='1067.7730617007046' y='208' width='41.87772508511569' height='15' fill='rgb(252,227,14)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='218.5'>rec..</text>
+<rawtext>recursivelyCommitLayoutEffects</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2041</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2041] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='208' width='1.7802632174485913' height='15' fill='rgb(209,221,7)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='218.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>commitWork
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1801</title>
+<details>Function: commitWork [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1801] (8,321 usec, 4.2%); self: 1,800 usec</details>
+<rect x='970.1552952772735' y='192' width='49.37856744129909' height='15' fill='rgb(241,186,41)' rx='2' ry='2' />
+<text x='973.1552952772735' y='202.5'>comm..</text>
+<rawtext>commitWork</rawtext>
+</g>
+<g>
+<title>insertOrAppendPlacementNodeIntoContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523</title>
+<details>Function: insertOrAppendPlacementNodeIntoContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523] (300 usec, 0.2%); self: 100 usec</details>
+<rect x='1065.992798483256' y='192' width='1.7802632174485913' height='15' fill='rgb(219,199,17)' rx='2' ry='2' />
+<text x='1068.992798483256' y='202.5'></text>
+<rawtext>insertOrAppendPlacementNodeIntoContainer</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Index.LuauPolyfill-2fca3173-0.2.6.LuauPolyfill.Array.sort:13</title>
+<details>Function:  [LoadedCode.RoactAlignment._Index.LuauPolyfill-2fca3173-0.2.6.LuauPolyfill.Array.sort:13] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1116.7718396556145' y='192' width='0.5934210724828637' height='15' fill='rgb(248,9,41)' rx='2' ry='2' />
+<text x='1119.7718396556145' y='202.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (6,857 usec, 3.4%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='192' width='40.69088294014997' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='202.5'>xpc..</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2049</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2049] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='192' width='1.7802632174485913' height='15' fill='rgb(252,109,31)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='202.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:496</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:496] (6,521 usec, 3.3%); self: 100 usec</details>
+<rect x='970.1552952772735' y='176' width='38.69698813660754' height='15' fill='rgb(247,213,4)' rx='2' ry='2' />
+<text x='973.1552952772735' y='186.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>insertOrAppendPlacementNodeIntoContainer
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523</title>
+<details>Function: insertOrAppendPlacementNodeIntoContainer [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1523] (200 usec, 0.1%); self: 0 usec</details>
+<rect x='1065.992798483256' y='176' width='1.1868421449657274' height='15' fill='rgb(219,199,17)' rx='2' ry='2' />
+<text x='1068.992798483256' y='186.5'></text>
+<rawtext>insertOrAppendPlacementNodeIntoContainer</rawtext>
+</g>
+<g>
+<title>recursivelyCommitLayoutEffects
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539</title>
+<details>Function: recursivelyCommitLayoutEffects [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539] (6,857 usec, 3.4%); self: 401 usec</details>
+<rect x='1067.7730617007046' y='176' width='40.69088294014997' height='15' fill='rgb(252,227,14)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='186.5'>rec..</text>
+<rawtext>recursivelyCommitLayoutEffects</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberWorkLoop.new:2506] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='176' width='1.7802632174485913' height='15' fill='rgb(211,204,40)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='186.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>updateProperties
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:248</title>
+<details>Function: updateProperties [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:248] (6,421 usec, 3.2%); self: 400 usec</details>
+<rect x='970.1552952772735' y='160' width='38.10356706412468' height='15' fill='rgb(210,161,0)' rx='2' ry='2' />
+<text x='973.1552952772735' y='170.5'>upd..</text>
+<rawtext>updateProperties</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:556</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:556] (200 usec, 0.1%); self: 0 usec</details>
+<rect x='1065.992798483256' y='160' width='1.1868421449657274' height='15' fill='rgb(245,0,5)' rx='2' ry='2' />
+<text x='1068.992798483256' y='170.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (6,456 usec, 3.2%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='160' width='38.311264439493684' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='170.5'>xpc..</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='160' width='1.7802632174485913' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='170.5'></text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (6,021 usec, 3.0%); self: 0 usec</details>
+<rect x='970.1552952772735' y='144' width='35.72988277419322' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='973.1552952772735' y='154.5'>xpc..</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:544</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:544] (200 usec, 0.1%); self: 0 usec</details>
+<rect x='1065.992798483256' y='144' width='1.1868421449657274' height='15' fill='rgb(232,220,3)' rx='2' ry='2' />
+<text x='1068.992798483256' y='154.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>recursivelyCommitLayoutEffects
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539</title>
+<details>Function: recursivelyCommitLayoutEffects [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539] (6,456 usec, 3.2%); self: 700 usec</details>
+<rect x='1067.7730617007046' y='144' width='38.311264439493684' height='15' fill='rgb(252,227,14)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='154.5'>rec..</text>
+<rawtext>recursivelyCommitLayoutEffects</rawtext>
+</g>
+<g>
+<title>commitDeletion
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1769</title>
+<details>Function: commitDeletion [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1769] (300 usec, 0.2%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='144' width='1.7802632174485913' height='15' fill='rgb(223,3,43)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='154.5'></text>
+<rawtext>commitDeletion</rawtext>
+</g>
+<g>
+<title>safelyApplyProperties
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:229</title>
+<details>Function: safelyApplyProperties [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:229] (6,021 usec, 3.0%); self: 1,900 usec</details>
+<rect x='970.1552952772735' y='128' width='35.72988277419322' height='15' fill='rgb(219,86,10)' rx='2' ry='2' />
+<text x='973.1552952772735' y='138.5'>saf..</text>
+<rawtext>safelyApplyProperties</rawtext>
+</g>
+<g>
+<title>Instance.Parent</title>
+<details>Function: Instance.Parent [[C]:0] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='1065.992798483256' y='128' width='1.1868421449657274' height='15' fill='rgb(242,135,17)' rx='2' ry='2' />
+<text x='1068.992798483256' y='138.5'></text>
+<rawtext>Instance.Parent</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (5,756 usec, 2.9%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='128' width='34.15731693211364' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='138.5'>xp..</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>unmountHostComponents
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1587</title>
+<details>Function: unmountHostComponents [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1587] (300 usec, 0.2%); self: 100 usec</details>
+<rect x='1120.3323660905119' y='128' width='1.7802632174485913' height='15' fill='rgb(226,5,7)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='138.5'></text>
+<rawtext>unmountHostComponents</rawtext>
+</g>
+<g>
+<title>applyProp
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:145</title>
+<details>Function: applyProp [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:145] (4,121 usec, 2.1%); self: 1,500 usec</details>
+<rect x='970.1552952772735' y='112' width='24.454882397018814' height='15' fill='rgb(216,70,43)' rx='2' ry='2' />
+<text x='973.1552952772735' y='122.5'>a..</text>
+<rawtext>applyProp</rawtext>
+</g>
+<g>
+<title>recursivelyCommitLayoutEffects
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539</title>
+<details>Function: recursivelyCommitLayoutEffects [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539] (5,756 usec, 2.9%); self: 1,856 usec</details>
+<rect x='1067.7730617007046' y='112' width='34.15731693211364' height='15' fill='rgb(252,227,14)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='122.5'>re..</text>
+<rawtext>recursivelyCommitLayoutEffects</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:655</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:655] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='112' width='0.5934210724828637' height='15' fill='rgb(205,225,12)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='122.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>commitUnmount
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1180</title>
+<details>Function: commitUnmount [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1180] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1120.9257871629945' y='112' width='0.5934210724828637' height='15' fill='rgb(243,103,12)' rx='2' ry='2' />
+<text x='1123.9257871629945' y='122.5'></text>
+<rawtext>commitUnmount</rawtext>
+</g>
+<g>
+<title>ImageLabel.ImageColor3</title>
+<details>Function: ImageLabel.ImageColor3 [[C]:0] (2,321 usec, 1.2%); self: 2,321 usec</details>
+<rect x='970.1552952772735' y='96' width='13.773303092327266' height='15' fill='rgb(225,20,14)' rx='2' ry='2' />
+<text x='973.1552952772735' y='106.5'></text>
+<rawtext>ImageLabel.ImageColor3</rawtext>
+</g>
+<g>
+<title>GC</title>
+<details>Function: GC [GC:0] (200 usec, 0.1%); self: 200 usec</details>
+<rect x='983.9285983696008' y='96' width='1.1868421449657274' height='15' fill='rgb(226,66,24)' rx='2' ry='2' />
+<text x='986.9285983696008' y='106.5'></text>
+<rawtext>GC</rawtext>
+</g>
+<g>
+<title>of
+LoadedCode.RoactAlignment._Workspace.Shared-17.0.1-rc.12.Shared.Type.roblox:25</title>
+<details>Function: of [LoadedCode.RoactAlignment._Workspace.Shared-17.0.1-rc.12.Shared.Type.roblox:25] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='985.1154405145664' y='96' width='0.5934210724828637' height='15' fill='rgb(225,191,15)' rx='2' ry='2' />
+<text x='988.1154405145664' y='106.5'></text>
+<rawtext>of</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (3,900 usec, 2.0%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='96' width='23.143421826831684' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='106.5'>x..</text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:643</title>
+<details>Function:  [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.ReactRobloxHostConfig:643] (100 usec, 0.1%); self: 0 usec</details>
+<rect x='1120.3323660905119' y='96' width='0.5934210724828637' height='15' fill='rgb(207,108,26)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='106.5'></text>
+<rawtext></rawtext>
+</g>
+<g>
+<title>recursivelyCommitLayoutEffects
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539</title>
+<details>Function: recursivelyCommitLayoutEffects [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539] (3,900 usec, 2.0%); self: 2,100 usec</details>
+<rect x='1067.7730617007046' y='80' width='23.143421826831684' height='15' fill='rgb(252,227,14)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='90.5'>r..</text>
+<rawtext>recursivelyCommitLayoutEffects</rawtext>
+</g>
+<g>
+<title>cleanupHostComponent
+LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:284</title>
+<details>Function: cleanupHostComponent [LoadedCode.RoactAlignment._Workspace.ReactRoblox.ReactRoblox.client.roblox.RobloxComponentProps:284] (100 usec, 0.1%); self: 100 usec</details>
+<rect x='1120.3323660905119' y='80' width='0.5934210724828637' height='15' fill='rgb(227,170,35)' rx='2' ry='2' />
+<text x='1123.3323660905119' y='90.5'></text>
+<rawtext>cleanupHostComponent</rawtext>
+</g>
+<g>
+<title>xpcall</title>
+<details>Function: xpcall [[C]:0] (1,800 usec, 0.9%); self: 0 usec</details>
+<rect x='1067.7730617007046' y='64' width='10.681579304691548' height='15' fill='rgb(251,5,18)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='74.5'></text>
+<rawtext>xpcall</rawtext>
+</g>
+<g>
+<title>recursivelyCommitLayoutEffects
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539</title>
+<details>Function: recursivelyCommitLayoutEffects [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:539] (1,800 usec, 0.9%); self: 1,500 usec</details>
+<rect x='1067.7730617007046' y='48' width='10.681579304691548' height='15' fill='rgb(252,227,14)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='58.5'></text>
+<rawtext>recursivelyCommitLayoutEffects</rawtext>
+</g>
+<g>
+<title>commitLayoutEffectsForHostComponent
+LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1061</title>
+<details>Function: commitLayoutEffectsForHostComponent [LoadedCode.RoactAlignment._Workspace.ReactReconciler.ReactReconciler.ReactFiberCommitWork.new:1061] (300 usec, 0.2%); self: 300 usec</details>
+<rect x='1067.7730617007046' y='32' width='1.7802632174485913' height='15' fill='rgb(245,90,39)' rx='2' ry='2' />
+<text x='1070.7730617007046' y='42.5'></text>
+<rawtext>commitLayoutEffectsForHostComponent</rawtext>
 </g>
 </g>
 </svg>
