@@ -17,5 +17,5 @@ readTextFile("data/details.json", function(detailsJSON){
 	const date = new Date(details.timestamp*1000);
 
 	const label = document.getElementById('pageDetails')
-	label.innerHTML = `<a href="${details.repo}" target="_blank">${details.name}</a> as of ${date.toLocaleDateString()}, ${date.toTimeString()}`;
+	label.innerHTML = `<a href="${details.repo}" target="_blank">${details.name}</a> as of ${date.toUTCString()}`;
 });
